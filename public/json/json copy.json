@@ -1,0 +1,2226 @@
+{
+    "commodity": [
+        {
+            "id": 1,
+            "type": "手机",
+            "commodityList": [
+                {
+                    "id": 1001,
+                    "cmmdtyTitle": "Apple iPhone 11 128G 红色 移动联通电信4G全网通手机"
+                },
+                {
+                    "id": 1002,
+                    "cmmdtyTitle": "华为/HUAWEI Mate 30 8GB+128GB 星河银 麒麟990智慧芯片 4000万徕卡摄像 OLED全面屏 移动联通电信4G全网通手机"
+                },
+                {
+                    "id": 1003,
+                    "cmmdtyTitle": "小米 (MI) 小米9 4800万超广角微距三摄 骁龙855 6GB+128GB 全息幻彩蓝 全面屏拍照游戏智能手机双卡双待移动联通电信全网通4G手机"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "type": "家用电器",
+            "commodityList": [
+                {
+                    "id": 2001,
+                    "cmmdtyTitle": "三星（SAMSUNG）UA65RUF60EJXXZ65英寸4K超高清电视平面杜比音效HDR10+语音互联智能电视机"
+                },
+                {
+                    "id": 2002,
+                    "cmmdtyTitle": "海尔（Haier）3匹 变频 KFR-72LW/17EDS21AU1 1级能效 静音 家用空调 强劲冷暖 圆柱柜机空调"
+                },
+                {
+                    "id": 2003,
+                    "cmmdtyTitle": "西门子（SIEMENS）KX50NA30TI 501升 超薄对开门冰箱 纤薄嵌入 变频 风冷无霜 家用冰箱（浅金色）"
+                }
+            ]
+        }
+    ],
+    "typeList": [
+        {
+            "id": 1,
+            "mobileList": [
+                {
+                    "id": 1001,
+                    "cmmdtyTitle": "Apple iPhone 11 128G 红色 移动联通电信4G全网通手机",
+                    "logogramName": "Apple iPhone 11",
+                    "info": [
+                        "黑色",
+                        "双卡双待",
+                        "全网通"
+                    ],
+                    "deploy": [
+                        {
+                            "storage": "128GB",
+                            "RAM": "",
+                            "size": 6.1
+                        }
+                    ],
+                    "price": 5999,
+                    "selfSuppor": 0,
+                    "promotionList": [
+                        "满2000减5",
+                        "赠",
+                        "惠"
+                    ],
+                    "reviewCount": "400+",
+                    "goodReview": "98%"
+                },
+                {
+                    "id": 1002,
+                    "cmmdtyTitle": "华为/HUAWEI Mate 30 8GB+128GB 星河银 麒麟990智慧芯片 4000万徕卡摄像 OLED全面屏 移动联通电信4G全网通手机",
+                    "logogramName": "华为 HUAWEI Mate 30",
+                    "info": [
+                        "麒麟990",
+                        "超级快充",
+                        "莱卡四摄"
+                    ],
+                    "deploy": [
+                        {
+                            "storage": "128GB",
+                            "RAM": "8GB",
+                            "size": 6.62
+                        }
+                    ],
+                    "price": 4299,
+                    "selfSuppor": 0,
+                    "promotionList": [
+                        "赠品",
+                        "惠",
+                        "6期免息"
+                    ],
+                    "reviewCount": "200+",
+                    "goodReview": "97%",
+                    "shopName": "华为苏宁自营店"
+                },
+                {
+                    "id": 1003,
+                    "cmmdtyTitle": "小米 (MI) 小米9 4800万超广角微距三摄 骁龙855 6GB+128GB 全息幻彩蓝 全面屏拍照游戏智能手机双卡双待移动联通电信全网通4G手机",
+                    "logogramName": "小米9",
+                    "info": [
+                        "骁龙855",
+                        "索尼4800万",
+                        "20W无线快充"
+                    ],
+                    "deploy": [
+                        {
+                            "storage": "128GB",
+                            "RAM": "8GB",
+                            "size": 6.39
+                        }
+                    ],
+                    "price": 2799,
+                    "selfSuppor": 1,
+                    "promotionList": [
+                        "赠品",
+                        "惠"
+                    ],
+                    "reviewCount": "1.1万+",
+                    "goodReview": "99%",
+                    "shopName": "小米苏宁自营店"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "electricList": [
+                {
+                    "id": 2001,
+                    "cmmdtyTitle": "三星（SAMSUNG）UA65RUF60EJXXZ65英寸4K超高清电视平面杜比音效HDR10+语音互联智能电视机",
+                    "logogramName": "三星智能电视",
+                    "info": [
+                        "黑色",
+                        "双卡双待",
+                        "全网通"
+                    ],
+                    "deploy": [
+                        {
+                            "storage": "128GB",
+                            "RAM": "",
+                            "size": 6.1
+                        }
+                    ],
+                    "price": 5999,
+                    "selfSuppor": 0,
+                    "promotionList": [
+                        "满2000减5",
+                        "赠",
+                        "惠"
+                    ],
+                    "reviewCount": "400+",
+                    "goodReview": "98%",
+                    "shopName": "三星苏宁自营旗舰店",
+                    "shopLogo": "//image.suning.cn/uimg/cshop/logo/000000000030000400.jpg?1564468224089"
+                },
+                {
+                    "id": 2002,
+                    "cmmdtyTitle": "海尔（Haier）3匹 变频 KFR-72LW/17EDS21AU1 1级能效 静音 家用空调 强劲冷暖 圆柱柜机空调",
+                    "logogramName": "海尔（Haier）3匹变频家用空调",
+                    "info": [
+                        "麒麟990",
+                        "超级快充",
+                        "莱卡四摄"
+                    ],
+                    "deploy": [
+                        {
+                            "storage": "128GB",
+                            "RAM": "8GB",
+                            "size": 6.62
+                        }
+                    ],
+                    "price": 4299,
+                    "selfSuppor": 0,
+                    "promotionList": [
+                        "赠品",
+                        "惠",
+                        "6期免息"
+                    ],
+                    "reviewCount": "200+",
+                    "goodReview": "97%",
+                    "shopName": "华为苏宁自营店"
+                },
+                {
+                    "id": 2003,
+                    "cmmdtyTitle": "西门子（SIEMENS）KX50NA30TI 501升 超薄对开门冰箱 纤薄嵌入 变频 风冷无霜 家用冰箱（浅金色）",
+                    "logogramName": "西门子（SIEMENS）KX50NA30TI 501升风冷冰箱",
+                    "info": [
+                        "骁龙855",
+                        "索尼4800万",
+                        "20W无线快充"
+                    ],
+                    "deploy": [
+                        {
+                            "storage": "128GB",
+                            "RAM": "8GB",
+                            "size": 6.39
+                        }
+                    ],
+                    "price": 2799,
+                    "selfSuppor": 1,
+                    "promotionList": [
+                        "赠品",
+                        "惠"
+                    ],
+                    "reviewCount": "1.1万+",
+                    "goodReview": "99%",
+                    "shopName": "小米苏宁自营店"
+                }
+            ]
+        }
+    ],
+    "detailsList": [
+        {
+            "id": 1001,
+            "promotionInfo": "大聚会",
+            "commodityCode": 100000000,
+            "cmmdtyTitle": "Apple iPhone 11 128G 红色 移动联通电信4G全网通手机",
+            "color": "红色",
+            "price": 5999,
+            "itemShopInfo": {
+                "poromotionPointCu": "双十一提前抢，iPhone 11系列火热开售",
+                "poromotionPointNew": "【iPhone 11系列新品火爆开售中！授权渠道，正品保障！】",
+                "poromotionPointVo": "A13仿生处理器-6.1英寸-双摄-光学变焦-多配色选择-双卡双待"
+            },
+            "senndingRank": "适合职场办公的10款长续航手机",
+            "shopName": "Apple产品苏宁自营旗舰店",
+            "shopLogo": "//image.suning.cn/uimg/cshop/logo/000000000030000400.jpg?1564468224089",
+            "imgList": [
+                "//imgservice.suning.cn/uimg1/b2c/image/a8huQtYV7trDqdrKSz2JcQ.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/xy6jomKWk3mqztNo-cz_mg.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/FpHjKXuIx1bjAqUngnc1lA.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/VX3vXcy1ZT_Ga2Bvt-bIXQ.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/x6ozyaGm6z_YCfAR5gA65w.jpg_800w_800h_4e_100Q"
+            ],
+            "questionList": [
+                {
+                    "id": 1006840,
+                    "productName": "Apple iPhone 11 128G 红色 移动联通电信4G 全网通手机",
+                    "text": "请教，在苏宁这儿买11的意义是什么？价格和官网一样，也没有24期免息。"
+                },
+                {
+                    "id": 1012547,
+                    "productName": "Apple iPhone 11 128G 红色 移动联通电信4G 全网通手机",
+                    "text": "拍照有广角吗？"
+                }
+            ],
+            "reviewList": [
+                {
+                    "content": "手机不错，颜色鲜艳而且便宜。",
+                    "qualityStar": 5,
+                    "userInfo": {
+                        "imgUrl": "//image.suning.cn/uimg/cmf/cust_headpic/0000000000_29_60x60.jpg",
+                        "uerName": "1***1"
+                    },
+                    "reviewImageList": [
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/151321780868766320_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157019654809276116_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157019654869080962_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157019658361689551_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157019658969405033_100x100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "content": "非常喜欢值得拥有一次愉快的购物",
+                    "qualityStar": 5,
+                    "userInfo": {
+                        "imgUrl": "//image.suning.cn/uimg/cmf/cust_headpic/0000000000_31_60x60.jpg",
+                        "uerName": "1***6"
+                    },
+                    "reviewImageList": [
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157041907837884597_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157041907866348951_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157041907931874922_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157041907970655657_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/157041908011912829_100x100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "subGood": {
+                "title": "猜你喜欢",
+                "sku": [
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "【新品开抢】苹果(Apple) iPhone 11 64GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/jbtu__PJTq--3yMSI__Ksg.jpg",
+                        "price": "5298.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro 64G 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/iND98aygJeOkeIDsmvOLRg.jpg",
+                        "price": "8699.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "苹果(Apple) iPhone 11 128GB 白色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/tetrHXBySev5-Is1e7YUkA.jpg",
+                        "price": "6128.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 64GB 银色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/GVyOKTaiKAVo-39NzhOa5w.jpg",
+                        "price": "3388.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 64GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/Tp_Gv1bBuNZld7J_n9PpMw.jpg",
+                        "price": "4588.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "【全新正品】Apple\/iPhone8 Plus 美版【有锁裸机】未激活 电信4G手机 深空灰64G（配卡贴）",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/JH-gKBtv2_pmxxapD6eXGA==.jpg",
+                        "price": "3199.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro Max 64G 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/agRy_spJpBSi0Fei6Sx6Lw.jpg",
+                        "price": "9599.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 128GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/MqVaA_XPeiZ2pGHpnRFQng.jpg",
+                        "price": "5038.00"
+                    },
+                    {
+                        "promotionInfo": "拼购",
+                        "sugGoodsName": "苹果(Apple) iPhone 11 64GB 黑色 双卡双待 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/uH5n6aUDDly9UTD56dd8GQ.jpg",
+                        "price": "5478.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "苹果\/Apple iPhone XR 128GB 白色 (A2108) 双卡双待 移动联通电信4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/k0j08VlRMLsy-B7Z_XUjXQ.jpg",
+                        "price": "4788.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro Max 256G 深空灰色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/bALPsuT4DtZ8Qe5L12Bsjw.jpg",
+                        "price": "10899.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 128GB 黑色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/l4w119x9bR8uEbi6rUdDSg.jpg",
+                        "price": "5038.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 64GB 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/-wCPKb7sqJDZVO8v6vwVOg.jpg",
+                        "price": "3388.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 Plus 64GB 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/TGrTA6pNkQpzHgfNfOuwVw.jpg",
+                        "price": "4288.00"
+                    },
+                    {
+                        "promotionInfo": "抢",
+                        "sugGoodsName": "小米 (MI)Redmi Note 8 4+64GB 曜石黑 4800万全场景四摄 4000mAh长续航 高通骁龙665小金刚学生大屏游戏智能移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/i7uA_-Wv1AuEBsAWJCp_jQ.jpg",
+                        "price": "999.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/荣耀（honor）9X 6GB+128GB 魅海蓝 移动联通电信4G全网通 麒麟810 4000mAh超强续航 4800万超清夜拍 6.59英寸升降全面屏手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/GzV-iiHVgSsk2CAJlQ9NkA.jpg",
+                        "price": "1899.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "小米 (MI)Redmi Note 8 6+128GB 皓月白 4800万全场景四摄 4000mAh长续航 高通骁龙665小金刚学生大屏游戏智能移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/mzsjIYRLUTZlkJylRlSU1w.jpg",
+                        "price": "1399.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U3x 3GB+32GB 深湖蓝 超大电池拍照快充三摄全面屏4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UDa2x2sQbh7P7--6ljJyFQ.jpg",
+                        "price": "799.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/HUAWEI nova 4 极点全面屏 2000万超广角三摄 8GB+128GB 苏音蓝 移动联通电信4G拍照全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/QvyMKZgJ_jyYYo9vtcQKSQ.jpg",
+                        "price": "2399.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "【官方正品】Philips\/飞利浦 E107 绚丽红 直板手机 老人手机大字大声超长待机 老年机 移动联通 商务备用手机 飞利浦e107",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/VD18087_vdt90euPaPdQhA.jpg",
+                        "price": "79.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U1 3+32G 星夜黑 水滴全面屏 AI智慧拍照手机全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/2DAiTLUlGEA4e-0JldsIxQ.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/HUAWEI 畅享 9 3GB+32GB 幻夜黑 高清珍珠屏 AI长续航 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/xZERCvS5n8qrwIQiRWiC4A.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U1 3+32G 极光色 水滴全面屏 AI智慧拍照手机全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/wMBq1pbnZYpu8q4oXURhyQ.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "小米 (MI) Redmi  7A 4000mAh超长续航 AI人脸解锁 3GB+32GB 磨砂黑 大电量大音量拍照游戏智能手机 双卡双待 小米 红米移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UFAuyYkOIYuyzwLLzk4TEg.jpg",
+                        "price": "599.00"
+                    },
+                    {
+                        "promotionInfo": "拼购",
+                        "sugGoodsName": "天语（K-TOUCH） Q3 军绿色 三防老人手机 直板按键 双卡双待 移动\/联通 老年手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/hO68EhNoz31trC1s1pZpsw.jpg",
+                        "price": "138.00"
+                    }
+                ]
+            },
+            "subGoods": {
+                "title": "热销排行",
+                "sku": [
+                    {
+                        "price": "899.00",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/vxUlnkOLzpQWFmzKSy9zdA.jpg_374w_374h_4e",
+                        "sugGoodsName": "vivo U3x 3+64GB 深湖蓝 5000mAh大电池 18w双引擎闪充 全网通4G手机"
+                    },
+                    {
+                        "price": "15.80",
+                        "sugGoodsName": "迷你便携式移动电源手机充电宝应急1200毫安苹果华为小米红米oppo魅族VIVO联想 粉色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/EE5jwvq4MuYACrkw8KgXrA==.jpg"
+                    },
+                    {
+                        "price": "7.90",
+                        "sugGoodsName": "拉威斯S6时尚迷你电脑平板手机mp3耳机耳塞式入耳式带麦克风耳机重低音游戏耳机男女生有线带麦K歌线控耳机 S6带麦版蓝色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/rctpJzA2-KF3Vmd9z5IojQ.jpg"
+                    },
+                    {
+                        "price": "37.00",
+                        "sugGoodsName": "太阳能充电宝20000毫安轻薄便携迷你快充手机通用聚合物移动电源 土豪金 20000毫安",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/afeHQBUAIb1Sm3U4gWv_aA==.png"
+                    },
+                    {
+                        "price": "2418.00",
+                        "sugGoodsName": "华为(HUAWEI) nova5 Pro 8GB+128GB 亮黑色 全网通 麒麟980 4800万AI四摄 移动联通电信4G拍照手机 华为nova5pro",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UqKl8uAeaU3VDSTI4lA2-w.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "12.50",
+                        "sugGoodsName": "拉威斯S38type-c耳机手机电脑平板重低音耳塞入耳式带麦K歌语音线控游戏耳机 拉威斯S38type-c带麦调音=黑色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/t8QxRBoAUB7feSDFRvikdA.jpg"
+                    },
+                    {
+                        "price": "2088.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀V20 魅眼全视屏 全网通高配版 8GB+128GB 幻夜黑 麒麟980 4800万深感相机 移动联通电信4G手机",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/CTKobJ_jEfmJNUqiBeUf5g.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "39.90",
+                        "sugGoodsName": "(SEDALUO)胜达罗新款黑米移动电源10000毫安数字显示充电宝大容量移动电源vivo华为oppo小米苹果手机通用",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/gebFCU_5Gy_oyTuK32D7Kw.jpg"
+                    },
+                    {
+                        "price": "79.80",
+                        "sugGoodsName": "小米8耳机typec版原装品质耳塞6x手机se线控tpc黑鲨游戏专用扁头",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/HSGaoUYHKCfhubs5YLn8SA.jpg"
+                    },
+                    {
+                        "price": "15.80",
+                        "sugGoodsName": "宿舍停电 USB升压线 5V转9V\/12V 充电宝移动电源 路由器\/光猫供电",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/Qq6FJ_nguLCfQzRJdRdTog.jpg"
+                    },
+                    {
+                        "price": "2848.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀20 Pro 全网通版 8GB+256GB 冰岛幻境 4800万全焦段AI四摄 麒麟980 移动联通电信4G手机 双卡双待 荣耀20pro",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/C9h2S_KlyhlogHRGN7wzEg.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "18.90",
+                        "sugGoodsName": "OPPO苹果VIVO华为小米重低音通用耳机线黑色【升级版】调音K歌接电话 BASN",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/RxuefYEXP96QBDFpOjcFsA.jpg"
+                    },
+                    {
+                        "price": "4018.00",
+                        "sugGoodsName": "华为(HUAWEI) 华为mate30 麒麟990 徕卡三摄 全网通版 8GB+128GB 星河银 4000万超感光徕卡影像 OLED全面屏 移动联通电信4G手机 Mate 30",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/maly0uGQ95abtXaWYvLJDw.png_374w_374h_4e"
+                    },
+                    {
+                        "price": "39.00",
+                        "sugGoodsName": "REMAX 唇彩创意移动电源 2400毫安迷你口红应急充电宝礼物可爱便携 红色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/ulVV2syYJP8A_EUBRrXxAg==.jpg"
+                    },
+                    {
+                        "price": "41.58",
+                        "sugGoodsName": "vivo耳机x9 x21vivox23vivox20x7plus耳机vivoy67 66y85线控入耳式耳塞s手机通用男",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/tsWKoJzxeLhJw_e0Hb4w9A.jpg"
+                    },
+                    {
+                        "price": "287.00",
+                        "sugGoodsName": "充电宝20000毫安迷你大容量快充闪充移动电源超薄小巧便携苹果8小米vivo华为oppo通用专用太阳能无线冲石墨烯",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/RTuqJtpqM77UGkkHmFFw5g.jpg"
+                    },
+                    {
+                        "price": "1198.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀20i 3200万AI自拍 超广角三摄 全网通版 6GB+64GB 幻夜黑 移动联通电信4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/pbOXZDaxazBZO2KxQoKtbA.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "7.90",
+                        "sugGoodsName": "拉威斯S45时尚迷你电脑手机mp3耳机耳塞式入耳式带麦语音耳机重低音手机游戏男女生平板有线带麦K歌耳机 S45带麦版黑色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/yQLChDpeTAfSH4q5Jp69ng.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 1002,
+            "promotionInfo": "大聚会",
+            "commodityCode": 200000000,
+            "shopName": "华为苏宁自营店",
+            "shopLogo": "//image.suning.cn/uimg/cshop/logo/000000000030001556.jpg?1541814727333",
+            "color": "星河银",
+            "price": 4299,
+            "cmmdtyTitle": "华为/HUAWEI Mate 30 8GB+128GB 星河银 麒麟990智慧芯片 4000万徕卡摄像 OLED全面屏 移动联通电信4G全网通手机",
+            "itemShopInfo": {
+                "poromotionPointNew": "【稀缺现货，限量开抢】",
+                "poromotionPointVo": "以旧换新至高补贴1000元，麒麟990智慧芯片，4000万莱卡摄像，OLED全面屏",
+                "poromotionPointCu": "Mate 30 新品开售"
+            },
+            "senndingRank": "十款性能强悍的高颜值手机精选",
+            "imgList": [
+                "//imgservice.suning.cn/uimg1/b2c/image/Qn7b9Gmyw-MJigi8TinMjw.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/Qn7b9Gmyw-MJigi8TinMjw.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/mDftoylWRDbwwwQDWQINtQ.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/LbtxdV9KutPS5BrOGq8fXg.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/IwQ5kvaLMpLj_51_6Us30g.jpg_800w_800h_4e_100Q"
+            ],
+            "questionList": [
+                {
+                    "id": 1012007,
+                    "productName": "HUAWEI 华为Mate30（TAS-AL00）8GB+128GB 星河银 全网通版手机",
+                    "text": "这手机3900值吗"
+                },
+                {
+                    "id": 1010765,
+                    "productName": "HUAWEI 华为Mate30（TAS-AL00）8GB+128GB 星河银 全网通版手机",
+                    "text": "这个有陀螺仪吗？"
+                }
+            ],
+            "reviewList": [
+                {
+                    "content": "物流很快，服务热情，冲华为品牌来的，体验下高大上的手机人脸识别的功能好啊",
+                    "qualityStar": 5,
+                    "userInfo": {
+                        "imgUrl": "//image.suning.cn/uimg/cmf/cust_headpic/0000000000_25_60x60.jpg",
+                        "uerName": "8***m"
+                    },
+                    "reviewImageList": [
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156973401117852206_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156973401122924856_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156973401106441187_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156973401100151222_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156973401111293761_100x100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "content": "半夜下单，第二天一早就收到了！物流给力！机子十分有分量，华为***te系列名不虚传，做工就是扎实！后面的浴霸摄像头也是相当霸气！送的小度车载支架用上刚好，就是手机太重。怕空调口撑不住！希望能延续***te系列的续航！还有，期待鸿蒙系统",
+                    "qualityStar": 5,
+                    "userInfo": {
+                        "imgUrl": "//image.suning.cn/uimg/cmf/cust_headpic/0000000000_27_60x60.jpg",
+                        "uerName": "q***p"
+                    },
+                    "reviewImageList": [
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156955032321934416_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157041907866348951_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156955032294841798_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156955032308246694_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156955032313657294_100x100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "subGood": {
+                "title": "猜你喜欢",
+                "sku": [
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "【新品开抢】苹果(Apple) iPhone 11 64GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/jbtu__PJTq--3yMSI__Ksg.jpg",
+                        "price": "5298.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro 64G 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/iND98aygJeOkeIDsmvOLRg.jpg",
+                        "price": "8699.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "苹果(Apple) iPhone 11 128GB 白色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/tetrHXBySev5-Is1e7YUkA.jpg",
+                        "price": "6128.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 64GB 银色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/GVyOKTaiKAVo-39NzhOa5w.jpg",
+                        "price": "3388.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 64GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/Tp_Gv1bBuNZld7J_n9PpMw.jpg",
+                        "price": "4588.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "【全新正品】Apple\/iPhone8 Plus 美版【有锁裸机】未激活 电信4G手机 深空灰64G（配卡贴）",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/JH-gKBtv2_pmxxapD6eXGA==.jpg",
+                        "price": "3199.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro Max 64G 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/agRy_spJpBSi0Fei6Sx6Lw.jpg",
+                        "price": "9599.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 128GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/MqVaA_XPeiZ2pGHpnRFQng.jpg",
+                        "price": "5038.00"
+                    },
+                    {
+                        "promotionInfo": "拼购",
+                        "sugGoodsName": "苹果(Apple) iPhone 11 64GB 黑色 双卡双待 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/uH5n6aUDDly9UTD56dd8GQ.jpg",
+                        "price": "5478.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "苹果\/Apple iPhone XR 128GB 白色 (A2108) 双卡双待 移动联通电信4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/k0j08VlRMLsy-B7Z_XUjXQ.jpg",
+                        "price": "4788.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro Max 256G 深空灰色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/bALPsuT4DtZ8Qe5L12Bsjw.jpg",
+                        "price": "10899.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 128GB 黑色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/l4w119x9bR8uEbi6rUdDSg.jpg",
+                        "price": "5038.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 64GB 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/-wCPKb7sqJDZVO8v6vwVOg.jpg",
+                        "price": "3388.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 Plus 64GB 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/TGrTA6pNkQpzHgfNfOuwVw.jpg",
+                        "price": "4288.00"
+                    },
+                    {
+                        "promotionInfo": "抢",
+                        "sugGoodsName": "小米 (MI)Redmi Note 8 4+64GB 曜石黑 4800万全场景四摄 4000mAh长续航 高通骁龙665小金刚学生大屏游戏智能移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/i7uA_-Wv1AuEBsAWJCp_jQ.jpg",
+                        "price": "999.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/荣耀（honor）9X 6GB+128GB 魅海蓝 移动联通电信4G全网通 麒麟810 4000mAh超强续航 4800万超清夜拍 6.59英寸升降全面屏手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/GzV-iiHVgSsk2CAJlQ9NkA.jpg",
+                        "price": "1899.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "小米 (MI)Redmi Note 8 6+128GB 皓月白 4800万全场景四摄 4000mAh长续航 高通骁龙665小金刚学生大屏游戏智能移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/mzsjIYRLUTZlkJylRlSU1w.jpg",
+                        "price": "1399.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U3x 3GB+32GB 深湖蓝 超大电池拍照快充三摄全面屏4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UDa2x2sQbh7P7--6ljJyFQ.jpg",
+                        "price": "799.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/HUAWEI nova 4 极点全面屏 2000万超广角三摄 8GB+128GB 苏音蓝 移动联通电信4G拍照全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/QvyMKZgJ_jyYYo9vtcQKSQ.jpg",
+                        "price": "2399.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "【官方正品】Philips\/飞利浦 E107 绚丽红 直板手机 老人手机大字大声超长待机 老年机 移动联通 商务备用手机 飞利浦e107",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/VD18087_vdt90euPaPdQhA.jpg",
+                        "price": "79.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U1 3+32G 星夜黑 水滴全面屏 AI智慧拍照手机全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/2DAiTLUlGEA4e-0JldsIxQ.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/HUAWEI 畅享 9 3GB+32GB 幻夜黑 高清珍珠屏 AI长续航 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/xZERCvS5n8qrwIQiRWiC4A.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U1 3+32G 极光色 水滴全面屏 AI智慧拍照手机全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/wMBq1pbnZYpu8q4oXURhyQ.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "小米 (MI) Redmi  7A 4000mAh超长续航 AI人脸解锁 3GB+32GB 磨砂黑 大电量大音量拍照游戏智能手机 双卡双待 小米 红米移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UFAuyYkOIYuyzwLLzk4TEg.jpg",
+                        "price": "599.00"
+                    },
+                    {
+                        "promotionInfo": "拼购",
+                        "sugGoodsName": "天语（K-TOUCH） Q3 军绿色 三防老人手机 直板按键 双卡双待 移动\/联通 老年手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/hO68EhNoz31trC1s1pZpsw.jpg",
+                        "price": "138.00"
+                    }
+                ]
+            },
+            "subGoods": {
+                "title": "热销排行",
+                "sku": [
+                    {
+                        "price": "899.00",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/vxUlnkOLzpQWFmzKSy9zdA.jpg_374w_374h_4e",
+                        "sugGoodsName": "vivo U3x 3+64GB 深湖蓝 5000mAh大电池 18w双引擎闪充 全网通4G手机"
+                    },
+                    {
+                        "price": "15.80",
+                        "sugGoodsName": "迷你便携式移动电源手机充电宝应急1200毫安苹果华为小米红米oppo魅族VIVO联想 粉色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/EE5jwvq4MuYACrkw8KgXrA==.jpg"
+                    },
+                    {
+                        "price": "7.90",
+                        "sugGoodsName": "拉威斯S6时尚迷你电脑平板手机mp3耳机耳塞式入耳式带麦克风耳机重低音游戏耳机男女生有线带麦K歌线控耳机 S6带麦版蓝色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/rctpJzA2-KF3Vmd9z5IojQ.jpg"
+                    },
+                    {
+                        "price": "37.00",
+                        "sugGoodsName": "太阳能充电宝20000毫安轻薄便携迷你快充手机通用聚合物移动电源 土豪金 20000毫安",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/afeHQBUAIb1Sm3U4gWv_aA==.png"
+                    },
+                    {
+                        "price": "2418.00",
+                        "sugGoodsName": "华为(HUAWEI) nova5 Pro 8GB+128GB 亮黑色 全网通 麒麟980 4800万AI四摄 移动联通电信4G拍照手机 华为nova5pro",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UqKl8uAeaU3VDSTI4lA2-w.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "12.50",
+                        "sugGoodsName": "拉威斯S38type-c耳机手机电脑平板重低音耳塞入耳式带麦K歌语音线控游戏耳机 拉威斯S38type-c带麦调音=黑色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/t8QxRBoAUB7feSDFRvikdA.jpg"
+                    },
+                    {
+                        "price": "2088.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀V20 魅眼全视屏 全网通高配版 8GB+128GB 幻夜黑 麒麟980 4800万深感相机 移动联通电信4G手机",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/CTKobJ_jEfmJNUqiBeUf5g.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "39.90",
+                        "sugGoodsName": "(SEDALUO)胜达罗新款黑米移动电源10000毫安数字显示充电宝大容量移动电源vivo华为oppo小米苹果手机通用",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/gebFCU_5Gy_oyTuK32D7Kw.jpg"
+                    },
+                    {
+                        "price": "79.80",
+                        "sugGoodsName": "小米8耳机typec版原装品质耳塞6x手机se线控tpc黑鲨游戏专用扁头",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/HSGaoUYHKCfhubs5YLn8SA.jpg"
+                    },
+                    {
+                        "price": "15.80",
+                        "sugGoodsName": "宿舍停电 USB升压线 5V转9V\/12V 充电宝移动电源 路由器\/光猫供电",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/Qq6FJ_nguLCfQzRJdRdTog.jpg"
+                    },
+                    {
+                        "price": "2848.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀20 Pro 全网通版 8GB+256GB 冰岛幻境 4800万全焦段AI四摄 麒麟980 移动联通电信4G手机 双卡双待 荣耀20pro",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/C9h2S_KlyhlogHRGN7wzEg.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "18.90",
+                        "sugGoodsName": "OPPO苹果VIVO华为小米重低音通用耳机线黑色【升级版】调音K歌接电话 BASN",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/RxuefYEXP96QBDFpOjcFsA.jpg"
+                    },
+                    {
+                        "price": "4018.00",
+                        "sugGoodsName": "华为(HUAWEI) 华为mate30 麒麟990 徕卡三摄 全网通版 8GB+128GB 星河银 4000万超感光徕卡影像 OLED全面屏 移动联通电信4G手机 Mate 30",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/maly0uGQ95abtXaWYvLJDw.png_374w_374h_4e"
+                    },
+                    {
+                        "price": "39.00",
+                        "sugGoodsName": "REMAX 唇彩创意移动电源 2400毫安迷你口红应急充电宝礼物可爱便携 红色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/ulVV2syYJP8A_EUBRrXxAg==.jpg"
+                    },
+                    {
+                        "price": "41.58",
+                        "sugGoodsName": "vivo耳机x9 x21vivox23vivox20x7plus耳机vivoy67 66y85线控入耳式耳塞s手机通用男",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/tsWKoJzxeLhJw_e0Hb4w9A.jpg"
+                    },
+                    {
+                        "price": "287.00",
+                        "sugGoodsName": "充电宝20000毫安迷你大容量快充闪充移动电源超薄小巧便携苹果8小米vivo华为oppo通用专用太阳能无线冲石墨烯",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/RTuqJtpqM77UGkkHmFFw5g.jpg"
+                    },
+                    {
+                        "price": "1198.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀20i 3200万AI自拍 超广角三摄 全网通版 6GB+64GB 幻夜黑 移动联通电信4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/pbOXZDaxazBZO2KxQoKtbA.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "7.90",
+                        "sugGoodsName": "拉威斯S45时尚迷你电脑手机mp3耳机耳塞式入耳式带麦语音耳机重低音手机游戏男女生平板有线带麦K歌耳机 S45带麦版黑色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/yQLChDpeTAfSH4q5Jp69ng.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 1003,
+            "promotionInfo": "大聚会",
+            "commodityCode": 200000000,
+            "shopName": "小米苏宁自营店",
+            "shopLogo": "//image.suning.cn/uimg/cshop/logo/000000000030000649.jpg?1539136621113",
+            "price": 4299,
+            "cmmdtyTitle": "小米 (MI) 小米9 4800万超广角微距三摄 骁龙855 6GB+128GB 全息幻彩蓝 全面屏拍照游戏智能手机双卡双待移动联通电信全网通4G手机",
+            "itemShopInfo": {
+                "poromotionPointNew": "【限时优惠400，到手价2599】",
+                "poromotionPointVo": "",
+                "poromotionPointCu": "新品红米8A火爆抢购中，立即查看》"
+            },
+            "senndingRank": "此商品已入选『让视野开阔的10款全面屏手机』",
+            "imgList": [
+                "//imgservice.suning.cn/uimg1/b2c/atmosphere/DN1NzO2-3zNVXz8b5RuJNA.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/2Xmbj7FVnSc1XS33BeZI3A.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/9hoUy6Os0Snb7T2H7af_Gw.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/8gBnt4Llbmuw9m-IQxVd1g.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/1tK88lOMI0Uohyv45svcYA.jpg_800w_800h_4e_100Q"
+            ],
+            "questionList": [
+                {
+                    "id": 990369,
+                    "productName": "小米9 全网通版 6GB内存 全息幻彩蓝 128GB",
+                    "text": "米9送无线充电吗"
+                },
+                {
+                    "id": 982959,
+                    "productName": "小米9 全网通版 6GB内存 全息幻彩蓝 128GB",
+                    "text": "这个支持两张电信4G卡吗？就是同时有信号，电话都能接"
+                }
+            ],
+            "reviewList": [
+                {
+                    "content": "使用了几天，手机反应比较快，拍照效果不错。不过电池容量小导致待机时间有点短，早上冲满电，一般使用情况下，到下午五六点电量一般还剩百分之十几。",
+                    "qualityStar": 5,
+                    "userInfo": {
+                        "imgUrl": "\/\/image.suning.cn\/uimg\/cmf\/cust_headpic\/0000000000_25_60x60.jpg",
+                        "uerName": "1***2"
+                    },
+                    "reviewImageList": [
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156565179599151864_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156595047990073392_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156595048812461835_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156595049460985967_100x100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "content": "很好",
+                    "qualityStar": 5,
+                    "userInfo": {
+                        "imgUrl": "\/\/image.suning.cn\/uimg\/cmf\/cust_headpic\/0000000000_26_60x60.jpg",
+                        "uerName": "羽***人"
+                    },
+                    "reviewImageList": [
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156594032430462793_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156594033446514108_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156594037016681442_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156594038518453503_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156594040074093606_100x100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "subGood": {
+                "title": "猜你喜欢",
+                "sku": [
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "【新品开抢】苹果(Apple) iPhone 11 64GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/jbtu__PJTq--3yMSI__Ksg.jpg",
+                        "price": "5298.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro 64G 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/iND98aygJeOkeIDsmvOLRg.jpg",
+                        "price": "8699.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "苹果(Apple) iPhone 11 128GB 白色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/tetrHXBySev5-Is1e7YUkA.jpg",
+                        "price": "6128.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 64GB 银色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/GVyOKTaiKAVo-39NzhOa5w.jpg",
+                        "price": "3388.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 64GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/Tp_Gv1bBuNZld7J_n9PpMw.jpg",
+                        "price": "4588.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "【全新正品】Apple\/iPhone8 Plus 美版【有锁裸机】未激活 电信4G手机 深空灰64G（配卡贴）",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/JH-gKBtv2_pmxxapD6eXGA==.jpg",
+                        "price": "3199.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro Max 64G 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/agRy_spJpBSi0Fei6Sx6Lw.jpg",
+                        "price": "9599.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 128GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/MqVaA_XPeiZ2pGHpnRFQng.jpg",
+                        "price": "5038.00"
+                    },
+                    {
+                        "promotionInfo": "拼购",
+                        "sugGoodsName": "苹果(Apple) iPhone 11 64GB 黑色 双卡双待 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/uH5n6aUDDly9UTD56dd8GQ.jpg",
+                        "price": "5478.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "苹果\/Apple iPhone XR 128GB 白色 (A2108) 双卡双待 移动联通电信4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/k0j08VlRMLsy-B7Z_XUjXQ.jpg",
+                        "price": "4788.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro Max 256G 深空灰色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/bALPsuT4DtZ8Qe5L12Bsjw.jpg",
+                        "price": "10899.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 128GB 黑色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/l4w119x9bR8uEbi6rUdDSg.jpg",
+                        "price": "5038.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 64GB 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/-wCPKb7sqJDZVO8v6vwVOg.jpg",
+                        "price": "3388.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 Plus 64GB 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/TGrTA6pNkQpzHgfNfOuwVw.jpg",
+                        "price": "4288.00"
+                    },
+                    {
+                        "promotionInfo": "抢",
+                        "sugGoodsName": "小米 (MI)Redmi Note 8 4+64GB 曜石黑 4800万全场景四摄 4000mAh长续航 高通骁龙665小金刚学生大屏游戏智能移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/i7uA_-Wv1AuEBsAWJCp_jQ.jpg",
+                        "price": "999.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/荣耀（honor）9X 6GB+128GB 魅海蓝 移动联通电信4G全网通 麒麟810 4000mAh超强续航 4800万超清夜拍 6.59英寸升降全面屏手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/GzV-iiHVgSsk2CAJlQ9NkA.jpg",
+                        "price": "1899.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "小米 (MI)Redmi Note 8 6+128GB 皓月白 4800万全场景四摄 4000mAh长续航 高通骁龙665小金刚学生大屏游戏智能移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/mzsjIYRLUTZlkJylRlSU1w.jpg",
+                        "price": "1399.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U3x 3GB+32GB 深湖蓝 超大电池拍照快充三摄全面屏4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UDa2x2sQbh7P7--6ljJyFQ.jpg",
+                        "price": "799.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/HUAWEI nova 4 极点全面屏 2000万超广角三摄 8GB+128GB 苏音蓝 移动联通电信4G拍照全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/QvyMKZgJ_jyYYo9vtcQKSQ.jpg",
+                        "price": "2399.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "【官方正品】Philips\/飞利浦 E107 绚丽红 直板手机 老人手机大字大声超长待机 老年机 移动联通 商务备用手机 飞利浦e107",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/VD18087_vdt90euPaPdQhA.jpg",
+                        "price": "79.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U1 3+32G 星夜黑 水滴全面屏 AI智慧拍照手机全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/2DAiTLUlGEA4e-0JldsIxQ.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/HUAWEI 畅享 9 3GB+32GB 幻夜黑 高清珍珠屏 AI长续航 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/xZERCvS5n8qrwIQiRWiC4A.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U1 3+32G 极光色 水滴全面屏 AI智慧拍照手机全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/wMBq1pbnZYpu8q4oXURhyQ.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "小米 (MI) Redmi  7A 4000mAh超长续航 AI人脸解锁 3GB+32GB 磨砂黑 大电量大音量拍照游戏智能手机 双卡双待 小米 红米移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UFAuyYkOIYuyzwLLzk4TEg.jpg",
+                        "price": "599.00"
+                    },
+                    {
+                        "promotionInfo": "拼购",
+                        "sugGoodsName": "天语（K-TOUCH） Q3 军绿色 三防老人手机 直板按键 双卡双待 移动\/联通 老年手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/hO68EhNoz31trC1s1pZpsw.jpg",
+                        "price": "138.00"
+                    }
+                ]
+            },
+            "subGoods": {
+                "title": "热销排行",
+                "sku": [
+                    {
+                        "price": "899.00",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/vxUlnkOLzpQWFmzKSy9zdA.jpg_374w_374h_4e",
+                        "sugGoodsName": "vivo U3x 3+64GB 深湖蓝 5000mAh大电池 18w双引擎闪充 全网通4G手机"
+                    },
+                    {
+                        "price": "15.80",
+                        "sugGoodsName": "迷你便携式移动电源手机充电宝应急1200毫安苹果华为小米红米oppo魅族VIVO联想 粉色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/EE5jwvq4MuYACrkw8KgXrA==.jpg"
+                    },
+                    {
+                        "price": "7.90",
+                        "sugGoodsName": "拉威斯S6时尚迷你电脑平板手机mp3耳机耳塞式入耳式带麦克风耳机重低音游戏耳机男女生有线带麦K歌线控耳机 S6带麦版蓝色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/rctpJzA2-KF3Vmd9z5IojQ.jpg"
+                    },
+                    {
+                        "price": "37.00",
+                        "sugGoodsName": "太阳能充电宝20000毫安轻薄便携迷你快充手机通用聚合物移动电源 土豪金 20000毫安",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/afeHQBUAIb1Sm3U4gWv_aA==.png"
+                    },
+                    {
+                        "price": "2418.00",
+                        "sugGoodsName": "华为(HUAWEI) nova5 Pro 8GB+128GB 亮黑色 全网通 麒麟980 4800万AI四摄 移动联通电信4G拍照手机 华为nova5pro",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UqKl8uAeaU3VDSTI4lA2-w.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "12.50",
+                        "sugGoodsName": "拉威斯S38type-c耳机手机电脑平板重低音耳塞入耳式带麦K歌语音线控游戏耳机 拉威斯S38type-c带麦调音=黑色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/t8QxRBoAUB7feSDFRvikdA.jpg"
+                    },
+                    {
+                        "price": "2088.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀V20 魅眼全视屏 全网通高配版 8GB+128GB 幻夜黑 麒麟980 4800万深感相机 移动联通电信4G手机",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/CTKobJ_jEfmJNUqiBeUf5g.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "39.90",
+                        "sugGoodsName": "(SEDALUO)胜达罗新款黑米移动电源10000毫安数字显示充电宝大容量移动电源vivo华为oppo小米苹果手机通用",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/gebFCU_5Gy_oyTuK32D7Kw.jpg"
+                    },
+                    {
+                        "price": "79.80",
+                        "sugGoodsName": "小米8耳机typec版原装品质耳塞6x手机se线控tpc黑鲨游戏专用扁头",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/HSGaoUYHKCfhubs5YLn8SA.jpg"
+                    },
+                    {
+                        "price": "15.80",
+                        "sugGoodsName": "宿舍停电 USB升压线 5V转9V\/12V 充电宝移动电源 路由器\/光猫供电",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/Qq6FJ_nguLCfQzRJdRdTog.jpg"
+                    },
+                    {
+                        "price": "2848.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀20 Pro 全网通版 8GB+256GB 冰岛幻境 4800万全焦段AI四摄 麒麟980 移动联通电信4G手机 双卡双待 荣耀20pro",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/C9h2S_KlyhlogHRGN7wzEg.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "18.90",
+                        "sugGoodsName": "OPPO苹果VIVO华为小米重低音通用耳机线黑色【升级版】调音K歌接电话 BASN",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/RxuefYEXP96QBDFpOjcFsA.jpg"
+                    },
+                    {
+                        "price": "4018.00",
+                        "sugGoodsName": "华为(HUAWEI) 华为mate30 麒麟990 徕卡三摄 全网通版 8GB+128GB 星河银 4000万超感光徕卡影像 OLED全面屏 移动联通电信4G手机 Mate 30",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/maly0uGQ95abtXaWYvLJDw.png_374w_374h_4e"
+                    },
+                    {
+                        "price": "39.00",
+                        "sugGoodsName": "REMAX 唇彩创意移动电源 2400毫安迷你口红应急充电宝礼物可爱便携 红色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/ulVV2syYJP8A_EUBRrXxAg==.jpg"
+                    },
+                    {
+                        "price": "41.58",
+                        "sugGoodsName": "vivo耳机x9 x21vivox23vivox20x7plus耳机vivoy67 66y85线控入耳式耳塞s手机通用男",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/tsWKoJzxeLhJw_e0Hb4w9A.jpg"
+                    },
+                    {
+                        "price": "287.00",
+                        "sugGoodsName": "充电宝20000毫安迷你大容量快充闪充移动电源超薄小巧便携苹果8小米vivo华为oppo通用专用太阳能无线冲石墨烯",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/RTuqJtpqM77UGkkHmFFw5g.jpg"
+                    },
+                    {
+                        "price": "1198.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀20i 3200万AI自拍 超广角三摄 全网通版 6GB+64GB 幻夜黑 移动联通电信4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/pbOXZDaxazBZO2KxQoKtbA.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "7.90",
+                        "sugGoodsName": "拉威斯S45时尚迷你电脑手机mp3耳机耳塞式入耳式带麦语音耳机重低音手机游戏男女生平板有线带麦K歌耳机 S45带麦版黑色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/yQLChDpeTAfSH4q5Jp69ng.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2001,
+            "promotionInfo": "大聚会",
+            "commodityCode": 100000000,
+            "color": "红色",
+            "price": 5999,
+            "cmmdtyTitle": "三星（SAMSUNG）UA65RUF60EJXXZ65英寸4K超高清电视平面杜比音效HDR10+语音互联智能电视机",
+            "itemShopInfo": {
+                "poromotionPointCu": "双十一提前抢，iPhone 11系列火热开售",
+                "poromotionPointNew": "【iPhone 11系列新品火爆开售中！授权渠道，正品保障！】",
+                "poromotionPointVo": "A13仿生处理器-6.1英寸-双摄-光学变焦-多配色选择-双卡双待"
+            },
+            "senndingRank": "适合职场办公的10款长续航手机",
+            "imgList": [
+                "//imgservice.suning.cn/uimg1/b2c/image/a8huQtYV7trDqdrKSz2JcQ.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/xy6jomKWk3mqztNo-cz_mg.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/FpHjKXuIx1bjAqUngnc1lA.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/VX3vXcy1ZT_Ga2Bvt-bIXQ.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/x6ozyaGm6z_YCfAR5gA65w.jpg_800w_800h_4e_100Q"
+            ],
+            "questionList": [
+                {
+                    "id": 1006840,
+                    "productName": "Apple iPhone 11 128G 红色 移动联通电信4G 全网通手机",
+                    "text": "请教，在苏宁这儿买11的意义是什么？价格和官网一样，也没有24期免息。"
+                },
+                {
+                    "id": 1012547,
+                    "productName": "Apple iPhone 11 128G 红色 移动联通电信4G 全网通手机",
+                    "text": "拍照有广角吗？"
+                }
+            ],
+            "reviewList": [
+                {
+                    "content": "手机不错，颜色鲜艳而且便宜。",
+                    "qualityStar": 5,
+                    "userInfo": {
+                        "imgUrl": "//image.suning.cn/uimg/cmf/cust_headpic/0000000000_29_60x60.jpg",
+                        "uerName": "1***1"
+                    },
+                    "reviewImageList": [
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/151321780868766320_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157019654809276116_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157019654869080962_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157019658361689551_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157019658969405033_100x100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "content": "非常喜欢值得拥有一次愉快的购物",
+                    "qualityStar": 5,
+                    "userInfo": {
+                        "imgUrl": "//image.suning.cn/uimg/cmf/cust_headpic/0000000000_31_60x60.jpg",
+                        "uerName": "1***6"
+                    },
+                    "reviewImageList": [
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157041907837884597_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157041907866348951_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157041907931874922_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157041907970655657_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/157041908011912829_100x100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "subGood": {
+                "title": "猜你喜欢",
+                "sku": [
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "【新品开抢】苹果(Apple) iPhone 11 64GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/jbtu__PJTq--3yMSI__Ksg.jpg",
+                        "price": "5298.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro 64G 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/iND98aygJeOkeIDsmvOLRg.jpg",
+                        "price": "8699.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "苹果(Apple) iPhone 11 128GB 白色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/tetrHXBySev5-Is1e7YUkA.jpg",
+                        "price": "6128.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 64GB 银色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/GVyOKTaiKAVo-39NzhOa5w.jpg",
+                        "price": "3388.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 64GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/Tp_Gv1bBuNZld7J_n9PpMw.jpg",
+                        "price": "4588.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "【全新正品】Apple\/iPhone8 Plus 美版【有锁裸机】未激活 电信4G手机 深空灰64G（配卡贴）",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/JH-gKBtv2_pmxxapD6eXGA==.jpg",
+                        "price": "3199.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro Max 64G 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/agRy_spJpBSi0Fei6Sx6Lw.jpg",
+                        "price": "9599.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 128GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/MqVaA_XPeiZ2pGHpnRFQng.jpg",
+                        "price": "5038.00"
+                    },
+                    {
+                        "promotionInfo": "拼购",
+                        "sugGoodsName": "苹果(Apple) iPhone 11 64GB 黑色 双卡双待 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/uH5n6aUDDly9UTD56dd8GQ.jpg",
+                        "price": "5478.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "苹果\/Apple iPhone XR 128GB 白色 (A2108) 双卡双待 移动联通电信4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/k0j08VlRMLsy-B7Z_XUjXQ.jpg",
+                        "price": "4788.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro Max 256G 深空灰色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/bALPsuT4DtZ8Qe5L12Bsjw.jpg",
+                        "price": "10899.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 128GB 黑色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/l4w119x9bR8uEbi6rUdDSg.jpg",
+                        "price": "5038.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 64GB 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/-wCPKb7sqJDZVO8v6vwVOg.jpg",
+                        "price": "3388.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 Plus 64GB 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/TGrTA6pNkQpzHgfNfOuwVw.jpg",
+                        "price": "4288.00"
+                    },
+                    {
+                        "promotionInfo": "抢",
+                        "sugGoodsName": "小米 (MI)Redmi Note 8 4+64GB 曜石黑 4800万全场景四摄 4000mAh长续航 高通骁龙665小金刚学生大屏游戏智能移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/i7uA_-Wv1AuEBsAWJCp_jQ.jpg",
+                        "price": "999.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/荣耀（honor）9X 6GB+128GB 魅海蓝 移动联通电信4G全网通 麒麟810 4000mAh超强续航 4800万超清夜拍 6.59英寸升降全面屏手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/GzV-iiHVgSsk2CAJlQ9NkA.jpg",
+                        "price": "1899.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "小米 (MI)Redmi Note 8 6+128GB 皓月白 4800万全场景四摄 4000mAh长续航 高通骁龙665小金刚学生大屏游戏智能移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/mzsjIYRLUTZlkJylRlSU1w.jpg",
+                        "price": "1399.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U3x 3GB+32GB 深湖蓝 超大电池拍照快充三摄全面屏4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UDa2x2sQbh7P7--6ljJyFQ.jpg",
+                        "price": "799.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/HUAWEI nova 4 极点全面屏 2000万超广角三摄 8GB+128GB 苏音蓝 移动联通电信4G拍照全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/QvyMKZgJ_jyYYo9vtcQKSQ.jpg",
+                        "price": "2399.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "【官方正品】Philips\/飞利浦 E107 绚丽红 直板手机 老人手机大字大声超长待机 老年机 移动联通 商务备用手机 飞利浦e107",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/VD18087_vdt90euPaPdQhA.jpg",
+                        "price": "79.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U1 3+32G 星夜黑 水滴全面屏 AI智慧拍照手机全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/2DAiTLUlGEA4e-0JldsIxQ.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/HUAWEI 畅享 9 3GB+32GB 幻夜黑 高清珍珠屏 AI长续航 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/xZERCvS5n8qrwIQiRWiC4A.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U1 3+32G 极光色 水滴全面屏 AI智慧拍照手机全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/wMBq1pbnZYpu8q4oXURhyQ.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "小米 (MI) Redmi  7A 4000mAh超长续航 AI人脸解锁 3GB+32GB 磨砂黑 大电量大音量拍照游戏智能手机 双卡双待 小米 红米移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UFAuyYkOIYuyzwLLzk4TEg.jpg",
+                        "price": "599.00"
+                    },
+                    {
+                        "promotionInfo": "拼购",
+                        "sugGoodsName": "天语（K-TOUCH） Q3 军绿色 三防老人手机 直板按键 双卡双待 移动\/联通 老年手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/hO68EhNoz31trC1s1pZpsw.jpg",
+                        "price": "138.00"
+                    }
+                ]
+            },
+            "subGoods": {
+                "title": "热销排行",
+                "sku": [
+                    {
+                        "price": "899.00",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/vxUlnkOLzpQWFmzKSy9zdA.jpg_374w_374h_4e",
+                        "sugGoodsName": "vivo U3x 3+64GB 深湖蓝 5000mAh大电池 18w双引擎闪充 全网通4G手机"
+                    },
+                    {
+                        "price": "15.80",
+                        "sugGoodsName": "迷你便携式移动电源手机充电宝应急1200毫安苹果华为小米红米oppo魅族VIVO联想 粉色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/EE5jwvq4MuYACrkw8KgXrA==.jpg"
+                    },
+                    {
+                        "price": "7.90",
+                        "sugGoodsName": "拉威斯S6时尚迷你电脑平板手机mp3耳机耳塞式入耳式带麦克风耳机重低音游戏耳机男女生有线带麦K歌线控耳机 S6带麦版蓝色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/rctpJzA2-KF3Vmd9z5IojQ.jpg"
+                    },
+                    {
+                        "price": "37.00",
+                        "sugGoodsName": "太阳能充电宝20000毫安轻薄便携迷你快充手机通用聚合物移动电源 土豪金 20000毫安",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/afeHQBUAIb1Sm3U4gWv_aA==.png"
+                    },
+                    {
+                        "price": "2418.00",
+                        "sugGoodsName": "华为(HUAWEI) nova5 Pro 8GB+128GB 亮黑色 全网通 麒麟980 4800万AI四摄 移动联通电信4G拍照手机 华为nova5pro",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UqKl8uAeaU3VDSTI4lA2-w.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "12.50",
+                        "sugGoodsName": "拉威斯S38type-c耳机手机电脑平板重低音耳塞入耳式带麦K歌语音线控游戏耳机 拉威斯S38type-c带麦调音=黑色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/t8QxRBoAUB7feSDFRvikdA.jpg"
+                    },
+                    {
+                        "price": "2088.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀V20 魅眼全视屏 全网通高配版 8GB+128GB 幻夜黑 麒麟980 4800万深感相机 移动联通电信4G手机",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/CTKobJ_jEfmJNUqiBeUf5g.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "39.90",
+                        "sugGoodsName": "(SEDALUO)胜达罗新款黑米移动电源10000毫安数字显示充电宝大容量移动电源vivo华为oppo小米苹果手机通用",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/gebFCU_5Gy_oyTuK32D7Kw.jpg"
+                    },
+                    {
+                        "price": "79.80",
+                        "sugGoodsName": "小米8耳机typec版原装品质耳塞6x手机se线控tpc黑鲨游戏专用扁头",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/HSGaoUYHKCfhubs5YLn8SA.jpg"
+                    },
+                    {
+                        "price": "15.80",
+                        "sugGoodsName": "宿舍停电 USB升压线 5V转9V\/12V 充电宝移动电源 路由器\/光猫供电",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/Qq6FJ_nguLCfQzRJdRdTog.jpg"
+                    },
+                    {
+                        "price": "2848.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀20 Pro 全网通版 8GB+256GB 冰岛幻境 4800万全焦段AI四摄 麒麟980 移动联通电信4G手机 双卡双待 荣耀20pro",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/C9h2S_KlyhlogHRGN7wzEg.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "18.90",
+                        "sugGoodsName": "OPPO苹果VIVO华为小米重低音通用耳机线黑色【升级版】调音K歌接电话 BASN",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/RxuefYEXP96QBDFpOjcFsA.jpg"
+                    },
+                    {
+                        "price": "4018.00",
+                        "sugGoodsName": "华为(HUAWEI) 华为mate30 麒麟990 徕卡三摄 全网通版 8GB+128GB 星河银 4000万超感光徕卡影像 OLED全面屏 移动联通电信4G手机 Mate 30",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/maly0uGQ95abtXaWYvLJDw.png_374w_374h_4e"
+                    },
+                    {
+                        "price": "39.00",
+                        "sugGoodsName": "REMAX 唇彩创意移动电源 2400毫安迷你口红应急充电宝礼物可爱便携 红色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/ulVV2syYJP8A_EUBRrXxAg==.jpg"
+                    },
+                    {
+                        "price": "41.58",
+                        "sugGoodsName": "vivo耳机x9 x21vivox23vivox20x7plus耳机vivoy67 66y85线控入耳式耳塞s手机通用男",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/tsWKoJzxeLhJw_e0Hb4w9A.jpg"
+                    },
+                    {
+                        "price": "287.00",
+                        "sugGoodsName": "充电宝20000毫安迷你大容量快充闪充移动电源超薄小巧便携苹果8小米vivo华为oppo通用专用太阳能无线冲石墨烯",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/RTuqJtpqM77UGkkHmFFw5g.jpg"
+                    },
+                    {
+                        "price": "1198.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀20i 3200万AI自拍 超广角三摄 全网通版 6GB+64GB 幻夜黑 移动联通电信4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/pbOXZDaxazBZO2KxQoKtbA.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "7.90",
+                        "sugGoodsName": "拉威斯S45时尚迷你电脑手机mp3耳机耳塞式入耳式带麦语音耳机重低音手机游戏男女生平板有线带麦K歌耳机 S45带麦版黑色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/yQLChDpeTAfSH4q5Jp69ng.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2002,
+            "promotionInfo": "大聚会",
+            "commodityCode": 200000000,
+            "shopName": "海尔苏宁自营店",
+            "shopLogo": "//image.suning.cn/uimg/cshop/logo/000000000030001556.jpg?1541814727333",
+            "color": "星河银",
+            "price": 4299,
+            "cmmdtyTitle": "海尔（Haier）3匹 变频 KFR-72LW/17EDS21AU1 1级能效 静音 家用空调 强劲冷暖 圆柱柜机空调",
+            "itemShopInfo": {
+                "poromotionPointNew": "【稀缺现货，限量开抢】",
+                "poromotionPointVo": "以旧换新至高补贴1000元，麒麟990智慧芯片，4000万莱卡摄像，OLED全面屏",
+                "poromotionPointCu": "Mate 30 新品开售"
+            },
+            "senndingRank": "十款性能强悍的高颜值手机精选",
+            "imgList": [
+                "//imgservice.suning.cn/uimg1/b2c/image/Qn7b9Gmyw-MJigi8TinMjw.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/Qn7b9Gmyw-MJigi8TinMjw.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/mDftoylWRDbwwwQDWQINtQ.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/LbtxdV9KutPS5BrOGq8fXg.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/IwQ5kvaLMpLj_51_6Us30g.jpg_800w_800h_4e_100Q"
+            ],
+            "questionList": [
+                {
+                    "id": 1012007,
+                    "productName": "HUAWEI 华为Mate30（TAS-AL00）8GB+128GB 星河银 全网通版手机",
+                    "text": "这手机3900值吗"
+                },
+                {
+                    "id": 1010765,
+                    "productName": "HUAWEI 华为Mate30（TAS-AL00）8GB+128GB 星河银 全网通版手机",
+                    "text": "这个有陀螺仪吗？"
+                }
+            ],
+            "reviewList": [
+                {
+                    "content": "物流很快，服务热情，冲华为品牌来的，体验下高大上的手机人脸识别的功能好啊",
+                    "qualityStar": 5,
+                    "userInfo": {
+                        "imgUrl": "//image.suning.cn/uimg/cmf/cust_headpic/0000000000_25_60x60.jpg",
+                        "uerName": "8***m"
+                    },
+                    "reviewImageList": [
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156973401117852206_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156973401122924856_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156973401106441187_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156973401100151222_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156973401111293761_100x100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "content": "半夜下单，第二天一早就收到了！物流给力！机子十分有分量，华为***te系列名不虚传，做工就是扎实！后面的浴霸摄像头也是相当霸气！送的小度车载支架用上刚好，就是手机太重。怕空调口撑不住！希望能延续***te系列的续航！还有，期待鸿蒙系统",
+                    "qualityStar": 5,
+                    "userInfo": {
+                        "imgUrl": "//image.suning.cn/uimg/cmf/cust_headpic/0000000000_27_60x60.jpg",
+                        "uerName": "q***p"
+                    },
+                    "reviewImageList": [
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156955032321934416_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/157041907866348951_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156955032294841798_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156955032308246694_100x100.jpg"
+                        },
+                        {
+                            "url": "//image3.suning.cn/uimg/ZR/share_order/156955032313657294_100x100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "subGood": {
+                "title": "猜你喜欢",
+                "sku": [
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "【新品开抢】苹果(Apple) iPhone 11 64GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/jbtu__PJTq--3yMSI__Ksg.jpg",
+                        "price": "5298.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro 64G 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/iND98aygJeOkeIDsmvOLRg.jpg",
+                        "price": "8699.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "苹果(Apple) iPhone 11 128GB 白色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/tetrHXBySev5-Is1e7YUkA.jpg",
+                        "price": "6128.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 64GB 银色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/GVyOKTaiKAVo-39NzhOa5w.jpg",
+                        "price": "3388.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 64GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/Tp_Gv1bBuNZld7J_n9PpMw.jpg",
+                        "price": "4588.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "【全新正品】Apple\/iPhone8 Plus 美版【有锁裸机】未激活 电信4G手机 深空灰64G（配卡贴）",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/JH-gKBtv2_pmxxapD6eXGA==.jpg",
+                        "price": "3199.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro Max 64G 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/agRy_spJpBSi0Fei6Sx6Lw.jpg",
+                        "price": "9599.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 128GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/MqVaA_XPeiZ2pGHpnRFQng.jpg",
+                        "price": "5038.00"
+                    },
+                    {
+                        "promotionInfo": "拼购",
+                        "sugGoodsName": "苹果(Apple) iPhone 11 64GB 黑色 双卡双待 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/uH5n6aUDDly9UTD56dd8GQ.jpg",
+                        "price": "5478.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "苹果\/Apple iPhone XR 128GB 白色 (A2108) 双卡双待 移动联通电信4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/k0j08VlRMLsy-B7Z_XUjXQ.jpg",
+                        "price": "4788.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro Max 256G 深空灰色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/bALPsuT4DtZ8Qe5L12Bsjw.jpg",
+                        "price": "10899.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 128GB 黑色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/l4w119x9bR8uEbi6rUdDSg.jpg",
+                        "price": "5038.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 64GB 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/-wCPKb7sqJDZVO8v6vwVOg.jpg",
+                        "price": "3388.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 Plus 64GB 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/TGrTA6pNkQpzHgfNfOuwVw.jpg",
+                        "price": "4288.00"
+                    },
+                    {
+                        "promotionInfo": "抢",
+                        "sugGoodsName": "小米 (MI)Redmi Note 8 4+64GB 曜石黑 4800万全场景四摄 4000mAh长续航 高通骁龙665小金刚学生大屏游戏智能移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/i7uA_-Wv1AuEBsAWJCp_jQ.jpg",
+                        "price": "999.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/荣耀（honor）9X 6GB+128GB 魅海蓝 移动联通电信4G全网通 麒麟810 4000mAh超强续航 4800万超清夜拍 6.59英寸升降全面屏手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/GzV-iiHVgSsk2CAJlQ9NkA.jpg",
+                        "price": "1899.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "小米 (MI)Redmi Note 8 6+128GB 皓月白 4800万全场景四摄 4000mAh长续航 高通骁龙665小金刚学生大屏游戏智能移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/mzsjIYRLUTZlkJylRlSU1w.jpg",
+                        "price": "1399.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U3x 3GB+32GB 深湖蓝 超大电池拍照快充三摄全面屏4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UDa2x2sQbh7P7--6ljJyFQ.jpg",
+                        "price": "799.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/HUAWEI nova 4 极点全面屏 2000万超广角三摄 8GB+128GB 苏音蓝 移动联通电信4G拍照全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/QvyMKZgJ_jyYYo9vtcQKSQ.jpg",
+                        "price": "2399.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "【官方正品】Philips\/飞利浦 E107 绚丽红 直板手机 老人手机大字大声超长待机 老年机 移动联通 商务备用手机 飞利浦e107",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/VD18087_vdt90euPaPdQhA.jpg",
+                        "price": "79.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U1 3+32G 星夜黑 水滴全面屏 AI智慧拍照手机全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/2DAiTLUlGEA4e-0JldsIxQ.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/HUAWEI 畅享 9 3GB+32GB 幻夜黑 高清珍珠屏 AI长续航 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/xZERCvS5n8qrwIQiRWiC4A.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U1 3+32G 极光色 水滴全面屏 AI智慧拍照手机全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/wMBq1pbnZYpu8q4oXURhyQ.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "小米 (MI) Redmi  7A 4000mAh超长续航 AI人脸解锁 3GB+32GB 磨砂黑 大电量大音量拍照游戏智能手机 双卡双待 小米 红米移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UFAuyYkOIYuyzwLLzk4TEg.jpg",
+                        "price": "599.00"
+                    },
+                    {
+                        "promotionInfo": "拼购",
+                        "sugGoodsName": "天语（K-TOUCH） Q3 军绿色 三防老人手机 直板按键 双卡双待 移动\/联通 老年手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/hO68EhNoz31trC1s1pZpsw.jpg",
+                        "price": "138.00"
+                    }
+                ]
+            },
+            "subGoods": {
+                "title": "热销排行",
+                "sku": [
+                    {
+                        "price": "899.00",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/vxUlnkOLzpQWFmzKSy9zdA.jpg_374w_374h_4e",
+                        "sugGoodsName": "vivo U3x 3+64GB 深湖蓝 5000mAh大电池 18w双引擎闪充 全网通4G手机"
+                    },
+                    {
+                        "price": "15.80",
+                        "sugGoodsName": "迷你便携式移动电源手机充电宝应急1200毫安苹果华为小米红米oppo魅族VIVO联想 粉色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/EE5jwvq4MuYACrkw8KgXrA==.jpg"
+                    },
+                    {
+                        "price": "7.90",
+                        "sugGoodsName": "拉威斯S6时尚迷你电脑平板手机mp3耳机耳塞式入耳式带麦克风耳机重低音游戏耳机男女生有线带麦K歌线控耳机 S6带麦版蓝色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/rctpJzA2-KF3Vmd9z5IojQ.jpg"
+                    },
+                    {
+                        "price": "37.00",
+                        "sugGoodsName": "太阳能充电宝20000毫安轻薄便携迷你快充手机通用聚合物移动电源 土豪金 20000毫安",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/afeHQBUAIb1Sm3U4gWv_aA==.png"
+                    },
+                    {
+                        "price": "2418.00",
+                        "sugGoodsName": "华为(HUAWEI) nova5 Pro 8GB+128GB 亮黑色 全网通 麒麟980 4800万AI四摄 移动联通电信4G拍照手机 华为nova5pro",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UqKl8uAeaU3VDSTI4lA2-w.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "12.50",
+                        "sugGoodsName": "拉威斯S38type-c耳机手机电脑平板重低音耳塞入耳式带麦K歌语音线控游戏耳机 拉威斯S38type-c带麦调音=黑色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/t8QxRBoAUB7feSDFRvikdA.jpg"
+                    },
+                    {
+                        "price": "2088.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀V20 魅眼全视屏 全网通高配版 8GB+128GB 幻夜黑 麒麟980 4800万深感相机 移动联通电信4G手机",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/CTKobJ_jEfmJNUqiBeUf5g.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "39.90",
+                        "sugGoodsName": "(SEDALUO)胜达罗新款黑米移动电源10000毫安数字显示充电宝大容量移动电源vivo华为oppo小米苹果手机通用",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/gebFCU_5Gy_oyTuK32D7Kw.jpg"
+                    },
+                    {
+                        "price": "79.80",
+                        "sugGoodsName": "小米8耳机typec版原装品质耳塞6x手机se线控tpc黑鲨游戏专用扁头",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/HSGaoUYHKCfhubs5YLn8SA.jpg"
+                    },
+                    {
+                        "price": "15.80",
+                        "sugGoodsName": "宿舍停电 USB升压线 5V转9V\/12V 充电宝移动电源 路由器\/光猫供电",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/Qq6FJ_nguLCfQzRJdRdTog.jpg"
+                    },
+                    {
+                        "price": "2848.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀20 Pro 全网通版 8GB+256GB 冰岛幻境 4800万全焦段AI四摄 麒麟980 移动联通电信4G手机 双卡双待 荣耀20pro",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/C9h2S_KlyhlogHRGN7wzEg.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "18.90",
+                        "sugGoodsName": "OPPO苹果VIVO华为小米重低音通用耳机线黑色【升级版】调音K歌接电话 BASN",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/RxuefYEXP96QBDFpOjcFsA.jpg"
+                    },
+                    {
+                        "price": "4018.00",
+                        "sugGoodsName": "华为(HUAWEI) 华为mate30 麒麟990 徕卡三摄 全网通版 8GB+128GB 星河银 4000万超感光徕卡影像 OLED全面屏 移动联通电信4G手机 Mate 30",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/maly0uGQ95abtXaWYvLJDw.png_374w_374h_4e"
+                    },
+                    {
+                        "price": "39.00",
+                        "sugGoodsName": "REMAX 唇彩创意移动电源 2400毫安迷你口红应急充电宝礼物可爱便携 红色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/ulVV2syYJP8A_EUBRrXxAg==.jpg"
+                    },
+                    {
+                        "price": "41.58",
+                        "sugGoodsName": "vivo耳机x9 x21vivox23vivox20x7plus耳机vivoy67 66y85线控入耳式耳塞s手机通用男",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/tsWKoJzxeLhJw_e0Hb4w9A.jpg"
+                    },
+                    {
+                        "price": "287.00",
+                        "sugGoodsName": "充电宝20000毫安迷你大容量快充闪充移动电源超薄小巧便携苹果8小米vivo华为oppo通用专用太阳能无线冲石墨烯",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/RTuqJtpqM77UGkkHmFFw5g.jpg"
+                    },
+                    {
+                        "price": "1198.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀20i 3200万AI自拍 超广角三摄 全网通版 6GB+64GB 幻夜黑 移动联通电信4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/pbOXZDaxazBZO2KxQoKtbA.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "7.90",
+                        "sugGoodsName": "拉威斯S45时尚迷你电脑手机mp3耳机耳塞式入耳式带麦语音耳机重低音手机游戏男女生平板有线带麦K歌耳机 S45带麦版黑色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/yQLChDpeTAfSH4q5Jp69ng.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2003,
+            "promotionInfo": "大聚会",
+            "commodityCode": 200000000,
+            "shopName": "西门子苏宁自营店",
+            "shopLogo": "//image.suning.cn/uimg/cshop/logo/000000000030000649.jpg?1539136621113",
+            "price": 4299,
+            "cmmdtyTitle": "西门子（SIEMENS）KX50NA30TI 501升 超薄对开门冰箱 纤薄嵌入 变频 风冷无霜 家用冰箱（浅金色）",
+            "itemShopInfo": {
+                "poromotionPointNew": "【限时优惠400，到手价2599】",
+                "poromotionPointVo": "",
+                "poromotionPointCu": "新品红米8A火爆抢购中，立即查看》"
+            },
+            "senndingRank": "此商品已入选『让视野开阔的10款全面屏手机』",
+            "imgList": [
+                "//imgservice.suning.cn/uimg1/b2c/atmosphere/DN1NzO2-3zNVXz8b5RuJNA.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/2Xmbj7FVnSc1XS33BeZI3A.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/9hoUy6Os0Snb7T2H7af_Gw.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/8gBnt4Llbmuw9m-IQxVd1g.jpg_800w_800h_4e_100Q",
+                "//imgservice.suning.cn/uimg1/b2c/image/1tK88lOMI0Uohyv45svcYA.jpg_800w_800h_4e_100Q"
+            ],
+            "questionList": [
+                {
+                    "id": 990369,
+                    "productName": "小米9 全网通版 6GB内存 全息幻彩蓝 128GB",
+                    "text": "米9送无线充电吗"
+                },
+                {
+                    "id": 982959,
+                    "productName": "小米9 全网通版 6GB内存 全息幻彩蓝 128GB",
+                    "text": "这个支持两张电信4G卡吗？就是同时有信号，电话都能接"
+                }
+            ],
+            "reviewList": [
+                {
+                    "content": "使用了几天，手机反应比较快，拍照效果不错。不过电池容量小导致待机时间有点短，早上冲满电，一般使用情况下，到下午五六点电量一般还剩百分之十几。",
+                    "qualityStar": 5,
+                    "userInfo": {
+                        "imgUrl": "\/\/image.suning.cn\/uimg\/cmf\/cust_headpic\/0000000000_25_60x60.jpg",
+                        "uerName": "1***2"
+                    },
+                    "reviewImageList": [
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156565179599151864_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156595047990073392_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156595048812461835_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156595049460985967_100x100.jpg"
+                        }
+                    ]
+                },
+                {
+                    "content": "很好",
+                    "qualityStar": 5,
+                    "userInfo": {
+                        "imgUrl": "\/\/image.suning.cn\/uimg\/cmf\/cust_headpic\/0000000000_26_60x60.jpg",
+                        "uerName": "羽***人"
+                    },
+                    "reviewImageList": [
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156594032430462793_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156594033446514108_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156594037016681442_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156594038518453503_100x100.jpg"
+                        },
+                        {
+                            "url": "//image4.suning.cn/uimg/ZR/share_order/156594040074093606_100x100.jpg"
+                        }
+                    ]
+                }
+            ],
+            "subGood": {
+                "title": "猜你喜欢",
+                "sku": [
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "【新品开抢】苹果(Apple) iPhone 11 64GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/jbtu__PJTq--3yMSI__Ksg.jpg",
+                        "price": "5298.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro 64G 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/iND98aygJeOkeIDsmvOLRg.jpg",
+                        "price": "8699.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "苹果(Apple) iPhone 11 128GB 白色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/tetrHXBySev5-Is1e7YUkA.jpg",
+                        "price": "6128.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 64GB 银色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/GVyOKTaiKAVo-39NzhOa5w.jpg",
+                        "price": "3388.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 64GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/Tp_Gv1bBuNZld7J_n9PpMw.jpg",
+                        "price": "4588.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "【全新正品】Apple\/iPhone8 Plus 美版【有锁裸机】未激活 电信4G手机 深空灰64G（配卡贴）",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/JH-gKBtv2_pmxxapD6eXGA==.jpg",
+                        "price": "3199.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro Max 64G 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/agRy_spJpBSi0Fei6Sx6Lw.jpg",
+                        "price": "9599.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 128GB 红色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/MqVaA_XPeiZ2pGHpnRFQng.jpg",
+                        "price": "5038.00"
+                    },
+                    {
+                        "promotionInfo": "拼购",
+                        "sugGoodsName": "苹果(Apple) iPhone 11 64GB 黑色 双卡双待 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/uH5n6aUDDly9UTD56dd8GQ.jpg",
+                        "price": "5478.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "苹果\/Apple iPhone XR 128GB 白色 (A2108) 双卡双待 移动联通电信4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/k0j08VlRMLsy-B7Z_XUjXQ.jpg",
+                        "price": "4788.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 11 Pro Max 256G 深空灰色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/bALPsuT4DtZ8Qe5L12Bsjw.jpg",
+                        "price": "10899.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone XR 128GB 黑色 移动联通电信4G全网通手机 双卡双待",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/l4w119x9bR8uEbi6rUdDSg.jpg",
+                        "price": "5038.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 64GB 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/-wCPKb7sqJDZVO8v6vwVOg.jpg",
+                        "price": "3388.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "Apple iPhone 8 Plus 64GB 金色 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/TGrTA6pNkQpzHgfNfOuwVw.jpg",
+                        "price": "4288.00"
+                    },
+                    {
+                        "promotionInfo": "抢",
+                        "sugGoodsName": "小米 (MI)Redmi Note 8 4+64GB 曜石黑 4800万全场景四摄 4000mAh长续航 高通骁龙665小金刚学生大屏游戏智能移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/i7uA_-Wv1AuEBsAWJCp_jQ.jpg",
+                        "price": "999.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/荣耀（honor）9X 6GB+128GB 魅海蓝 移动联通电信4G全网通 麒麟810 4000mAh超强续航 4800万超清夜拍 6.59英寸升降全面屏手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/GzV-iiHVgSsk2CAJlQ9NkA.jpg",
+                        "price": "1899.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "小米 (MI)Redmi Note 8 6+128GB 皓月白 4800万全场景四摄 4000mAh长续航 高通骁龙665小金刚学生大屏游戏智能移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/mzsjIYRLUTZlkJylRlSU1w.jpg",
+                        "price": "1399.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U3x 3GB+32GB 深湖蓝 超大电池拍照快充三摄全面屏4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UDa2x2sQbh7P7--6ljJyFQ.jpg",
+                        "price": "799.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/HUAWEI nova 4 极点全面屏 2000万超广角三摄 8GB+128GB 苏音蓝 移动联通电信4G拍照全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/QvyMKZgJ_jyYYo9vtcQKSQ.jpg",
+                        "price": "2399.00"
+                    },
+                    {
+                        "promotionInfo": "大聚惠",
+                        "sugGoodsName": "【官方正品】Philips\/飞利浦 E107 绚丽红 直板手机 老人手机大字大声超长待机 老年机 移动联通 商务备用手机 飞利浦e107",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/VD18087_vdt90euPaPdQhA.jpg",
+                        "price": "79.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U1 3+32G 星夜黑 水滴全面屏 AI智慧拍照手机全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/2DAiTLUlGEA4e-0JldsIxQ.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "华为\/HUAWEI 畅享 9 3GB+32GB 幻夜黑 高清珍珠屏 AI长续航 移动联通电信4G全网通手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/xZERCvS5n8qrwIQiRWiC4A.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "vivo U1 3+32G 极光色 水滴全面屏 AI智慧拍照手机全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/wMBq1pbnZYpu8q4oXURhyQ.jpg",
+                        "price": "749.00"
+                    },
+                    {
+                        "promotionInfo": "",
+                        "sugGoodsName": "小米 (MI) Redmi  7A 4000mAh超长续航 AI人脸解锁 3GB+32GB 磨砂黑 大电量大音量拍照游戏智能手机 双卡双待 小米 红米移动联通电信全网通4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UFAuyYkOIYuyzwLLzk4TEg.jpg",
+                        "price": "599.00"
+                    },
+                    {
+                        "promotionInfo": "拼购",
+                        "sugGoodsName": "天语（K-TOUCH） Q3 军绿色 三防老人手机 直板按键 双卡双待 移动\/联通 老年手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/hO68EhNoz31trC1s1pZpsw.jpg",
+                        "price": "138.00"
+                    }
+                ]
+            },
+            "subGoods": {
+                "title": "热销排行",
+                "sku": [
+                    {
+                        "price": "899.00",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/vxUlnkOLzpQWFmzKSy9zdA.jpg_374w_374h_4e",
+                        "sugGoodsName": "vivo U3x 3+64GB 深湖蓝 5000mAh大电池 18w双引擎闪充 全网通4G手机"
+                    },
+                    {
+                        "price": "15.80",
+                        "sugGoodsName": "迷你便携式移动电源手机充电宝应急1200毫安苹果华为小米红米oppo魅族VIVO联想 粉色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/EE5jwvq4MuYACrkw8KgXrA==.jpg"
+                    },
+                    {
+                        "price": "7.90",
+                        "sugGoodsName": "拉威斯S6时尚迷你电脑平板手机mp3耳机耳塞式入耳式带麦克风耳机重低音游戏耳机男女生有线带麦K歌线控耳机 S6带麦版蓝色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/rctpJzA2-KF3Vmd9z5IojQ.jpg"
+                    },
+                    {
+                        "price": "37.00",
+                        "sugGoodsName": "太阳能充电宝20000毫安轻薄便携迷你快充手机通用聚合物移动电源 土豪金 20000毫安",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/afeHQBUAIb1Sm3U4gWv_aA==.png"
+                    },
+                    {
+                        "price": "2418.00",
+                        "sugGoodsName": "华为(HUAWEI) nova5 Pro 8GB+128GB 亮黑色 全网通 麒麟980 4800万AI四摄 移动联通电信4G拍照手机 华为nova5pro",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/UqKl8uAeaU3VDSTI4lA2-w.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "12.50",
+                        "sugGoodsName": "拉威斯S38type-c耳机手机电脑平板重低音耳塞入耳式带麦K歌语音线控游戏耳机 拉威斯S38type-c带麦调音=黑色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/t8QxRBoAUB7feSDFRvikdA.jpg"
+                    },
+                    {
+                        "price": "2088.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀V20 魅眼全视屏 全网通高配版 8GB+128GB 幻夜黑 麒麟980 4800万深感相机 移动联通电信4G手机",
+                        "adSrc": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/CTKobJ_jEfmJNUqiBeUf5g.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "39.90",
+                        "sugGoodsName": "(SEDALUO)胜达罗新款黑米移动电源10000毫安数字显示充电宝大容量移动电源vivo华为oppo小米苹果手机通用",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/gebFCU_5Gy_oyTuK32D7Kw.jpg"
+                    },
+                    {
+                        "price": "79.80",
+                        "sugGoodsName": "小米8耳机typec版原装品质耳塞6x手机se线控tpc黑鲨游戏专用扁头",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/HSGaoUYHKCfhubs5YLn8SA.jpg"
+                    },
+                    {
+                        "price": "15.80",
+                        "sugGoodsName": "宿舍停电 USB升压线 5V转9V\/12V 充电宝移动电源 路由器\/光猫供电",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/Qq6FJ_nguLCfQzRJdRdTog.jpg"
+                    },
+                    {
+                        "price": "2848.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀20 Pro 全网通版 8GB+256GB 冰岛幻境 4800万全焦段AI四摄 麒麟980 移动联通电信4G手机 双卡双待 荣耀20pro",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/C9h2S_KlyhlogHRGN7wzEg.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "18.90",
+                        "sugGoodsName": "OPPO苹果VIVO华为小米重低音通用耳机线黑色【升级版】调音K歌接电话 BASN",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/RxuefYEXP96QBDFpOjcFsA.jpg"
+                    },
+                    {
+                        "price": "4018.00",
+                        "sugGoodsName": "华为(HUAWEI) 华为mate30 麒麟990 徕卡三摄 全网通版 8GB+128GB 星河银 4000万超感光徕卡影像 OLED全面屏 移动联通电信4G手机 Mate 30",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/maly0uGQ95abtXaWYvLJDw.png_374w_374h_4e"
+                    },
+                    {
+                        "price": "39.00",
+                        "sugGoodsName": "REMAX 唇彩创意移动电源 2400毫安迷你口红应急充电宝礼物可爱便携 红色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/ulVV2syYJP8A_EUBRrXxAg==.jpg"
+                    },
+                    {
+                        "price": "41.58",
+                        "sugGoodsName": "vivo耳机x9 x21vivox23vivox20x7plus耳机vivoy67 66y85线控入耳式耳塞s手机通用男",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/tsWKoJzxeLhJw_e0Hb4w9A.jpg"
+                    },
+                    {
+                        "price": "287.00",
+                        "sugGoodsName": "充电宝20000毫安迷你大容量快充闪充移动电源超薄小巧便携苹果8小米vivo华为oppo通用专用太阳能无线冲石墨烯",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/RTuqJtpqM77UGkkHmFFw5g.jpg"
+                    },
+                    {
+                        "price": "1198.00",
+                        "sugGoodsName": "华为 荣耀(honor) 荣耀20i 3200万AI自拍 超广角三摄 全网通版 6GB+64GB 幻夜黑 移动联通电信4G手机",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/pbOXZDaxazBZO2KxQoKtbA.jpg_374w_374h_4e"
+                    },
+                    {
+                        "price": "7.90",
+                        "sugGoodsName": "拉威斯S45时尚迷你电脑手机mp3耳机耳塞式入耳式带麦语音耳机重低音手机游戏男女生平板有线带麦K歌耳机 S45带麦版黑色",
+                        "pictureUrl": "\/\/imgservice.suning.cn\/uimg1\/b2c\/image\/yQLChDpeTAfSH4q5Jp69ng.jpg"
+                    }
+                ]
+            }
+        }
+    ]
+}

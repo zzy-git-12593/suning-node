@@ -1,0 +1,616 @@
+[
+    {
+        "id": 1,
+        "tabName": "热门推荐",
+        "list": [{
+                "id": 1,
+                "name": "空调",
+                "imgUrl": "//image4.suning.cn/uimg/asbs/ad/1526974072412_app_wap_list.jpg",
+                "introduceList": [
+                    {
+                        "id": 1,
+                        "name": "趋势新品",
+                        "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1552637481950_app_wap_list.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "静音",
+                        "imgUrl": "//image5.suning.cn/uimg/asbs/ad/1536023606079_app_list.jpg"
+                    },
+                    {
+                        "id": 3,
+                        "name": "1.5匹挂",
+                        "imgUrl": "//image4.suning.cn/uimg/asbs/ad/1536023666477_app_list.jpg"
+                    },
+                    {
+                        "id": 4,
+                        "name": "变频空调",
+                        "imgUrl": "//image4.suning.cn/uimg/asbs/ad/1536024019575_app_list.jpg"
+                    },
+                    {
+                        "id": 5,
+                        "name": "柜机空调",
+                        "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1536023718094_app_list.jpg"
+                    }
+                ]
+
+            },
+            {
+                "id": 2,
+                "name": "电视",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1491712405935_pc_list.jpg",
+                "introduceList": [
+                    {
+                        "id": 1,
+                        "name": "趋势新品",
+                        "imgUrl": "//image2.suning.cn/uimg/cms/img/155263881511757874.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "name": "海信电视",
+                        "imgUrl": "//image2.suning.cn/uimg/cms/img/153570062516374483.jpg"
+                    },
+                    {
+                        "id": 3,
+                        "name": "智慧屏",
+                        "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1566461788118_app_wap_list.jpg"
+                    },
+                    {
+                        "id": 4,
+                        "name": "大屏电视",
+                        "imgUrl": "//image2.suning.cn/uimg/cms/img/153570061557733854.jpg"
+                    },
+                    {
+                        "id": 5,
+                        "name": "超高清",
+                        "imgUrl": "//image2.suning.cn/uimg/cms/img/153570053924422843.jpg"
+                    },
+                    {
+                        "id": 6,
+                        "name": "OLED电视",
+                        "imgUrl": "//image2.suning.cn/uimg/cms/img/153570058444105744.jpg"
+                    },
+                    {
+                        "id": 7,
+                        "name": "人工智能",
+                        "imgUrl": "//image2.suning.cn/uimg/cms/img/153570065324341016.jpg"
+                    },
+                    {
+                        "id": 8,
+                        "name": "全面屏",
+                        "imgUrl": "//image2.suning.cn/uimg/cms/img/153611765418982712.jpg"
+                    }
+                ]
+
+            },
+            {
+                "id": 3,
+                "name": "洗衣机",
+                "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1493018450115_pc_list.jpg"
+
+            },
+            {
+                "id": 4,
+                "name": "小biu",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1564725998435_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 5,
+                "name": "破壁机",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1524896142621_app_wap_list.jpg"
+
+            },
+            {
+                "id": 6,
+                "name": "生活家用",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1562830366848_app_wap_list.jpg"
+
+            },
+            {
+                "id": 7,
+                "name": "手机",
+                "imgUrl": "//image2.suning.cn/uimg/cms/img/153684246313252041.png"
+
+            },
+            {
+                "id": 8,
+                "name": "热水器",
+                "imgUrl": "//image3.suning.cn/uimg/asbs/ad/1528960724022_imgApp_tmndir.png"
+
+            },
+            {
+                "id": 9,
+                "name": "笔记本",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1493946827440_app_list.jpg"
+
+            },
+            {
+                "id": 10,
+                "name": "手表",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1568541017652_imgApp_tmndir.png"
+
+            },
+            {
+                "id": 11,
+                "name": "黄金饰品",
+                "imgUrl": "//image1.suning.cn//uimg/cms/img/157071001493613668.jpg"
+
+            },
+            {
+                "id": 12,
+                "name": "奶粉",
+                "imgUrl": "//image2.suning.cn/uimg/cms/img/154425254209357689.jpg"
+
+            },
+            {
+                "id": 13,
+                "name": "白酒",
+                "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1566980852073_imgApp_tmndir.png"
+
+            },
+            {
+                "id": 14,
+                "name": "运动卫衣",
+                "imgUrl": "//image4.suning.cn/uimg/asbs/ad/1566957406181_imgApp_tmndir.jpg"
+
+            },
+            {
+                "id": 15,
+                "name": "大闸蟹",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1569401972659_imgApp_tmndir.png"
+
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "tabName": "手机数码",
+        "list": [
+            {
+                "id": 1,
+                "name": "",
+                "imgUrl": "//image4.suning.cn/uimg/asbs/ad/1555400065704_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1551089631491_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "",
+                "imgUrl": "//image3.suning.cn/uimg/asbs/ad/1551089588322_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 4,
+                "name": "",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1551089610753_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 5,
+                "name": "",
+                "imgUrl": "///image1.suning.cn/uimg/asbs/ad/1551089644937_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 6,
+                "name": "",
+                "imgUrl": "//image3.suning.cn/uimg/asbs/ad/1552297036471_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 7,
+                "name": "",
+                "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1551089694916_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 8,
+                "name": "",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1560586699006_imgWap_tmndir.png"
+
+            },
+            {
+                "id": 9,
+                "name": "",
+                "imgUrl": "//image4.suning.cn/uimg/asbs/ad/1551089730190_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 10,
+                "name": "",
+                "imgUrl": "//image5.suning.cn/uimg/asbs/ad/1564711780288_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 11,
+                "name": "",
+                "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1551089782232_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 12,
+                "name": "",
+                "imgUrl": "//image4.suning.cn/uimg/asbs/ad/1551089799787_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 13,
+                "name": "",
+                "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1551089819426_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 14,
+                "name": "",
+                "imgUrl": "//image3.suning.cn/uimg/asbs/ad/1551089837642_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 15,
+                "name": "",
+                "imgUrl": "//image3.suning.cn/uimg/asbs/ad/1551089860284_imgWap_tmndir.jpg"
+
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "tabName": "大家电",
+        "list": [
+            {
+                "id": 1,
+                "name": "变频空调",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1526974117107_app_wap_list.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "家用空调",
+                "imgUrl": "//image4.suning.cn/uimg/asbs/ad/1526974072412_app_wap_list.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "移动空调",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1565254593244_imgWap_tmndir.png"
+
+            },
+            {
+                "id": 4,
+                "name": "空调挂机",
+                "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1526974161215_app_wap_list.jpg"
+
+            },
+            {
+                "id": 5,
+                "name": "空调柜机",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1565577940430_imgWap_tmndir.png"
+
+            },
+            {
+                "id": 6,
+                "name": "小biu空调",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1564727440316_imgWap_tmndir.jpg"
+
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "tabName": "电脑办公",
+        "list": [
+            {
+                "id": 1,
+                "name": "笔记本",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1493946827440_app_list.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "游戏本",
+                "imgUrl": "//image5.suning.cn/uimg/asbs/ad/1554794058372_imgApp_tmndir.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "轻薄本",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1493946924941_app_list.jpg"
+
+            },
+            {
+                "id": 4,
+                "name": "台式机",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1493946999339_app_list.jpg"
+
+            },
+            {
+                "id": 5,
+                "name": "一体机",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1493947041765_app_list.jpg"
+
+            },
+            {
+                "id": 6,
+                "name": "商用台式机",
+                "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1545806560270_app_wap_list.png"
+
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "tabName": "厨卫大电",
+        "list": [
+            {
+                "id": 1,
+                "name": "油烟机",
+                "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1493019127990_pc_list.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "烟灶套餐",
+                "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1493019104421_pc_list.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "燃气灶",
+                "imgUrl": "//image3.suning.cn/uimg/asbs/ad/1493019147058_pc_list.jpg"
+
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "tabName": "生活家电",
+        "list": [
+            {
+                "id": 1,
+                "name": "网红小家电",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1562830366848_app_wap_list.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "破壁机",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1524896142621_app_wap_list.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "电动牙刷",
+                "imgUrl": "//image5.suning.cn/uimg/asbs/ad/1520250928252_imgApp_tmndir.jpg"
+
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "tabName": "食品酒水",
+        "list": [
+            {
+                "id": 1,
+                "name": "白酒",
+                "imgUrl": "//image5.suning.cn/uimg/asbs/ad/1535597538000_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "葡萄酒",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1535597924284_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "饮用水",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1528859588265_imgApp_tmndir.jpg"
+
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "tabName": "运动户外",
+        "list": [
+            {
+                "id": 1,
+                "name": "",
+                "imgUrl": "//image3.suning.cn/uimg/asbs/ad/1543817856387_pc_app_wap_list.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "",
+                "imgUrl": "//image2.suning.cn/uimg/cms/img/152171735453081215.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1566213633292_pc_app_wap_ebuy.jpg"
+
+            },
+            {
+                "id": 4,
+                "name": "",
+                "imgUrl": "//image4.suning.cn/uimg/asbs/ad/1566213657006_pc_app_wap_ebuy.jpg"
+
+            },
+            {
+                "id": 5,
+                "name": "",
+                "imgUrl": "//image5.suning.cn/uimg/asbs/ad/1566213598359_pc_app_wap_ebuy.jpg"
+
+            },
+            {
+                "id": 6,
+                "name": "",
+                "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1550060224615_pc_app_wap_list.jpg"
+
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "tabName": "苏宁国际",
+        "list": [
+            {
+                "id": 1,
+                "name": "Swisse",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1499503560220_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "资生堂",
+                "imgUrl": "//image3.suning.cn/uimg/asbs/ad/1531125859962_imgApp_tmndir.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "膳魔师",
+                "imgUrl": "//image2.suning.cn/uimg/asbs/ad/1531128746039_imgApp_tmndir.jpg"
+
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "tabName": "家具家纺",
+        "list": [
+            {
+                "id": 1,
+                "name": "水星",
+                "imgUrl": "//image1.suning.cn//uimg/cms/img/155549397333664569.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "LOVO",
+                "imgUrl": "//image1.suning.cn//uimg/cms/img/155549398489998261.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "富安娜",
+                "imgUrl": "//image1.suning.cn//uimg/cms/img/155549399018242441.jpg"
+
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "tabName": "品质男装",
+        "list": [
+            {
+                "id": 1,
+                "name": "羽绒服",
+                "imgUrl": "https://uimgproxy.suning.cn/uimg1/sop/commodity/CgvX_h3W8YvmM9COaa9T1w.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "男士外套",
+                "imgUrl": "https://uimgproxy.suning.cn/uimg1/sop/commodity/6W3XGOYH2qv4RgS5cEn2qw.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "衬衫",
+                "imgUrl": "https://uimgproxy.suning.cn/uimg1/sop/commodity/8YJZGv4eJG1xOEBByiJ9Ug.jpg"
+
+            },
+            {
+                "id": 4,
+                "name": "卫衣",
+                "imgUrl": "https://uimgproxy.suning.cn/uimg1/sop/commodity/jSLksf_fKPuGHmD-vxlP7A.jpg"
+
+            },
+            {
+                "id": 5,
+                "name": "牛仔裤",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1535686583174_imgApp_tmndir.jpg"
+
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "tabName": "珠宝首饰",
+        "list": [
+            {
+                "id": 1,
+                "name": "周大福",
+                "imgUrl": "//image2.suning.cn/uimg/cms/img/149429963266084203.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "周生生",
+                "imgUrl": "//image4.suning.cn/uimg/asbs/ad/1541055809395_imgWap_tmndir.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "周大生",
+                "imgUrl": "//image1.suning.cn/uimg/asbs/ad/1557629097617_app_list.jpg"
+
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "tabName": "家装建材",
+        "list": [
+            {
+                "id": 1,
+                "name": "坐便器",
+                "imgUrl": "//image2.suning.cn/uimg/cms/img/149403698730706874.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "沐浴/花洒",
+                "imgUrl": "//image2.suning.cn/uimg/cms/img/149403701031588452.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "水槽/厨盆",
+                "imgUrl": "//image2.suning.cn/uimg/cms/img/149403703509765107.jpg"
+
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "tabName": "厨具水具",
+        "list": [
+            {
+                "id": 1,
+                "name": "炒锅",
+                "imgUrl": "//image5.suning.cn/uimg/asbs/ad/1555425529044_imgApp_tmndir.jpg"
+
+            },
+            {
+                "id": 2,
+                "name": "套锅",
+                "imgUrl": "//image4.suning.cn/uimg/asbs/ad/1555425632533_imgApp_tmndir.jpg"
+
+            },
+            {
+                "id": 3,
+                "name": "蒸锅",
+                "imgUrl": "//image.suning.cn/uimg/asbs/ad/1555425673867_imgApp_tmndir.jpg"
+
+            }
+        ]
+    }
+]

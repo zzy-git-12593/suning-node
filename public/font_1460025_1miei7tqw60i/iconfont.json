@@ -1,0 +1,44 @@
+{
+  "id": "1460025",
+  "name": "苏宁",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3584188",
+      "name": "购物车",
+      "font_class": "shopcar",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5315109",
+      "name": "我",
+      "font_class": "wo",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "6551476",
+      "name": "我 的",
+      "font_class": "my",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "6916187",
+      "name": "主页",
+      "font_class": "home",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10073047",
+      "name": "分类",
+      "font_class": "type",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
