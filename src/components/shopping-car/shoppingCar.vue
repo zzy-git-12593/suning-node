@@ -51,7 +51,7 @@ export default {
       axios.get('/shoppingcar/getCommdty')
         .then( (res) =>{
             this.carList = res.data
-            console.log(!this.carList.length > 0)
+            console.log(res)
         })
         .catch((err)=>{console.log(err)})
   },
