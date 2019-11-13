@@ -2,15 +2,15 @@
     <div class="tabcontainer">
         <div class="tabcontainer-box">
             <div class="top-nav">
-                <span>{{$store.state.tabMsg}}</span>
+                <span>{{typeContentList.typeTitle}}</span>
                 <div class="tabcontainer-line"></div>
             </div>
             <div class="content">
                 <ul>
-                    <li v-for="item in $store.state.lists" :key="item.id">
+                    <li v-for="item in typeContentList.list" :key="item.id">
                         <router-link to="" tag="div">
                             <img :src="item.imgUrl">
-                            <span>{{item.name}}</span>
+                            <span>{{item.comName}}</span>
                         </router-link>
                     </li>
                 </ul>
@@ -19,7 +19,11 @@
     </div>
 </template>
 <script>
+import {mapState} from "vuex";
 export default {
+    computed:{
+        ...mapState(['typeContentList'])
+    }
 }
 </script>
 <style scoped>

@@ -1,16 +1,24 @@
 <template>
     <div class="left-tab">
         <ul class="type-tab">
-            <li :class="{active: $store.state.tabMsg==item.tabName}" v-for="(item,index) in $store.state.popularList" :key="item.id" :name="item.tabName" @click="tabClick(item.tabName, index)">{{item.tabName}}</li>
+             <li :class="{active: typeIndex == index}" v-for="(item,index) in typeTitleList" :key="item.id" :name="item.typeName" @click="tabClick(item.id, index)">{{item.typeName}}</li>
         </ul>
     </div>
 </template>
 <script>
 import BScroll from 'better-scroll'
 export default {
+    data(){
+        return {
+            typeIndex:0
+        }
+    },
+    props:['typeTitleList'],
     methods: {
-        tabClick(a,index) {
-            this.$store.commit('getListsMutations',a)
+        tabClick(typeId,index) {
+
+            this.typeIndex =index;
+            this.$store.dispatch('getTypeContentActions',typeId)
         }
     }
 }

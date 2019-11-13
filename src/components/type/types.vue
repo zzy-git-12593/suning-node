@@ -2,7 +2,7 @@
   <div class="type-app">
     <SearchInput class="type-search-input"></SearchInput>
     <div class="type-content">
-      <LeftTab class="type-left-tab"></LeftTab>
+      <LeftTab class="type-left-tab" :type-title-list="typeTitleList"></LeftTab>
       <TabContainer class="type-right-tab"></TabContainer>
     </div>
   </div>
@@ -12,9 +12,24 @@ import SearchInput from "../../views/type/SearchInput";
 import LeftTab from "../../views/type/LeftTab";
 import TabContainer from "../../views/type/TabContainer";
 import { mapState } from "vuex";
+import axios from "axios";
 export default {
-  mounted() {
-    this.$store.dispatch("getpopularListActions");
+  data() {
+    return {
+      typeTitleList:[] //prop传值
+    };
+  },
+  created() {
+    
+    axios.get("/type/typeTitle")
+    .then(res => {
+
+        this.typeTitleList = res.data
+        this.$store.dispatch('getTypeContentActions',this.typeTitleList[0].id) //初始化页面，请求第一个页面
+      })
+      .catch(err => {
+        console.log(err);
+      });
   },
   components: {
     SearchInput,

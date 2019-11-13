@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     // 动画 页面跳转
     fade: '',
-    popularList: [],
+    typeContentList:'',
     lists: [],
     tabMsg: '热门推荐',
     typeInput: '',
@@ -22,6 +22,10 @@ export default new Vuex.Store({
     isDelCheck: false
   },
   mutations: {
+    // 获取分类页内容：
+    getTypeContentMutations(state,data) {
+      state.typeContentList = data
+    },
 
     changeTransition(state) {
       state.fade = 'search'
@@ -274,11 +278,14 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    getpopularListActions(store) {
-      axios.get("/json/type.json").then(data => {
-        store.commit('getpopularListMutations', data.data)
-      });
+
+    getTypeContentActions(store,id) {
+      axios.get('/type/typeContent?typeId='+id)
+      .then((data)=>{
+        store.commit('getTypeContentMutations',data.data)
+      })
     },
+
     // 提交请求的商品详情数据
     getCommodityInfoActions(store, commodityID) {
 

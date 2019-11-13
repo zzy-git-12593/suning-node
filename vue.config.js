@@ -2,7 +2,12 @@ module.exports = {
   lintOnSave: false,
   devServer: {
     proxy: {
-      '/shopping': {
+      '/shoppingcar': {
+        target: 'http://localhost:2000',
+        ws: true,
+        changeOrigin: true
+      },
+      '/type': {
         target: 'http://localhost:2000',
         ws: true,
         changeOrigin: true
