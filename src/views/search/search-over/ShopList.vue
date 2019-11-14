@@ -7,9 +7,9 @@
         </div>
         <div class="test-box">
           <div class="top-flex">
-            <p class="information">
+            <p class="information" v-if="item.selfSuppor==1">
               <span>自营</span>
-              <span>{{item.cmmdtyTitle}}</span>
+              <span>{{item.cmmdtyName}}</span>
             </p>
             <p class="introduce">
               <span class="introduce-2" v-for="info in item.info" :key="info">{{info}}</span>
@@ -32,8 +32,7 @@
           </div>
           <div class="bottom-flex">
             <p class="price">
-              ￥
-              <span>{{item.price}}</span>.00
+              ￥<span>{{item.price}}</span>.00
             </p>
             <p class="coupon">
               <span
@@ -77,16 +76,12 @@ export default {
       this.searchcmmdtyTitle = this.$route.query.searchtext;
     }
     
-    axios.get("http://localhost:3000/typeList").then(res => {
-      res.data.filter(item => {
-        if (item.cmmdtyTitle.includes(this.searchcmmdtyTitle)) {
-          this.searchcmmdtyList.push(item);
-          return this.searchcmmdtyList;
-        }
+    axios.get("http://localhost:2000/product/search?searchWord="+this.searchcmmdtyTitle)
+    .then(res => {
+        this.searchcmmdtyList = res.data
+        console.log(this.searchcmmdtyList)
       });
-      console.log(this.searchcmmdtyList);
-    });
-
+      
      bus.$emit('searchSwiperList',this.searchcmmdtyList)
   },
 

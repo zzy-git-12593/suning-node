@@ -15,12 +15,18 @@
                         <img :src="item.userInfo.imgUrl">
                         <span>{{item.userInfo.uerName}}</span>
                     </span>
-                    <span class="pingfeng" >
-                        <i class="el-icon-star-on" v-if="item.qualityStar>0"></i>
-                        <i class="el-icon-star-on" v-else-if="item.qualityStar>=1"></i>
-                        <i class="el-icon-star-on" v-else-if="item.qualityStar>=2"></i>
-                        <i class="el-icon-star-on" v-else-if="item.qualityStar>=3"></i>
-                        <i class="el-icon-star-on" v-else-if="item.qualityStar>=4"></i>
+                    <span class="pingfeng" v-if="item.qualityStar==5" >
+                        <i class="el-icon-star-on" ></i>
+                        <i class="el-icon-star-on" ></i>
+                        <i class="el-icon-star-on" ></i>
+                        <i class="el-icon-star-on" ></i>
+                        <i class="el-icon-star-on" ></i>
+                    </span>
+                    <span class="pingfeng" v-if="item.qualityStar==4" >
+                        <i class="el-icon-star-on" ></i>
+                        <i class="el-icon-star-on" ></i>
+                        <i class="el-icon-star-on" ></i>
+                        <i class="el-icon-star-on" ></i>
                     </span>
                 </p>
                 <p class="appraise-content">{{item.content}}</p>

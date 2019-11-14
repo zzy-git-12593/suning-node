@@ -2,21 +2,21 @@
 <template>
   <div class="likeswiper" >
     <div class="likeswiper-tab" >
-        <span :class="{active1: msg=='1'}" @click="tabClick(1)" >{{commodityInfoList.subGoods.title}}</span>
-        <span :class="{active1: msg=='2'}" @click="tabClick(2)">{{commodityInfoList.subGood.title}}</span>
+        <span :class="{active1: msg==1}" @click="tabClick(1)" >猜你喜欢</span>
+        <span :class="{active1: msg==2}" @click="tabClick(2)">最佳排行</span>
     </div>
-    <likeswiperleft v-if="msg===1" v-show="filterSubGoodsSwiperList">
+    <likeswiperleft v-if="msg==1" v-show="filterSubGoodsSwiperList">
       <ul class="swiper-slide" v-for="(item,index) in filterSubGoodsSwiperList" :key="index" >
-        <li v-for="items in item" :key="items.sugGoodsName">
+        <li v-for="(items,index) in item" :key="index">
           <img :src="items.pictureUrl" />
           <p class="item-name">{{items.sugGoodsName}}</p>
           <p class="item-price">{{items.price}}</p>
         </li>
       </ul>
     </likeswiperleft>
-    <likeswiperright v-if="msg===2" v-show="filterSubGoodSwiperList">
+    <likeswiperright v-if="msg==2" v-show="filterSubGoodSwiperList">
       <ul class="swiper-slide" v-for="(item,index) in filterSubGoodSwiperList" :key="index" >
-        <li v-for="items in item" :key="items.sugGoodsName">
+        <li v-for="(items,index) in item" :key="index">
           <img :src="items.pictureUrl" />
           <p class="item-name">{{items.sugGoodsName}}</p>
           <p class="item-price">{{items.price}}</p>

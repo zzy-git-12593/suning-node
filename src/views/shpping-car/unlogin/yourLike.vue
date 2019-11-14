@@ -7,13 +7,13 @@
             <span>———————</span> 
         </div>
         <!-- 推荐商品列表 -->     
-        <div class="good_recommendation_list" v-if="goodRecommendationList">
-            <div class="good_recommendation_commdlity" v-for="item in goodRecommendationList" :key="item.id">
+        <div class="good_recommendation_list" v-if="recommendList.length>0">
+            <div class="good_recommendation_commdlity" v-for="item in recommendList" :key="item.id">
                 <img :src="item.imgUrl" alt="" @click="enterCommlityInfo(item)">
-                <span class="good_recommendation_commdlity_name">{{item.cmmdtyTitle}}</span>
+                <span class="good_recommendation_commdlity_name">{{item.cmmdtyName}}</span>
                 <div class="good_recommendation_commdlity_price_wrapper">
                     <span class="commdlity_price_text">￥{{item.price}}<span>.00</span></span>
-                    <span class="el-icon-shopping-cart-1 commdlity_car-btn" @click="addCommltyToCar(item)"></span>
+                    <span class="el-icon-shopping-cart-1 commdlity_car-btn" @click="addCommltyToCar(item.id)"></span>
                 </div>
             </div>
         </div> 
@@ -30,13 +30,16 @@ import axios from "axios"
 export default {
     data(){
         return{
-            goodRecommendationList:null
+            recommendList:[]
         }
     },
-    mounted () {
+    created () {
         // 请求推荐数据
-        axios.get('http://localhost:3000/typeList')
-        .then(res=>this.goodRecommendationList=res.data)
+        axios.get('http://localhost:2000/product/recommend')
+        .then(res=>{
+            this.recommendList = res.data
+            console.log( this.recommendList )
+        })
     },
     methods:{
         // 添加购物车
@@ -50,10 +53,10 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped>
 .shopping_car_good_recommendation{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 .good_recommendation_title{
     font-size: 12px;
@@ -81,6 +84,7 @@ export default {
 }
 .good_recommendation_commdlity_name{
     width: 90%;
+    height: 32px;
     font-size: 12px;
     color: #333333;
      margin: 10px auto;

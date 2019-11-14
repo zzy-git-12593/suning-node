@@ -79,9 +79,8 @@ export default {
                 color:this.commodityInfoList.color,
                 count:this.count
             })
-            this.count = 1
-
-            axios.get('/shoppingcar/addDo', {
+            
+            axios.get('http://localhost:2000/shoppingcar/addDo', {
                 params: {
                         id:this.commodityInfoList.id,
                         cmmdtyTitle:this.commodityInfoList.cmmdtyTitle,
@@ -158,9 +157,9 @@ export default {
     font-size: 12px;
     padding: 0 0 3px 5px;
     display:-webkit-box;
-   	-webkit-box-orient:vertical;
+    -webkit-box-orient:vertical;
     -webkit-line-clamp:2;
-   	 overflow:hidden;
+   	overflow:hidden;
     text-overflow:ellipsis;
 }
 .footertool-shop-test p:last-child{

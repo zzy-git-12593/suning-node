@@ -25,7 +25,7 @@
                 <div class="top-introduce-left">
                     <span class="icn-span" v-if="commodityInfoList.selfSuppor">自营</span>
                     <span class="icop"><span class="icn-span">超级</span><span class="icn-span">新品</span></span>
-                    <span>{{commodityInfoList.cmmdtyTitle}}</span>
+                    <span>{{commodityInfoList.cmmdtyName}}</span>
                 </div>
                 <div class="icon-right">
                     <span class="el-icon-star-off"></span>

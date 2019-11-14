@@ -691,9 +691,11 @@
             "count":1,
             "storage":"128G",
             "classes":[
+
                 {"cmmdtyTitle":"Apple iPhone 11 128G 红色 移动联通电信4G全网通手机","color":"黑色","id":1001,"storageType":["64G","128G","256GB"]},
                 {"cmmdtyTitle":"Apple iPhone 11 128G 黑色 移动联通电信4G全网通手机","color":"黑色","id":1002,"storageType":["64G","128G","256GB"]},
                 {"cmmdtyTitle":"Apple iPhone 11 128G 绿色 移动联通电信4G全网通手机","color":"黑色","id":1003,"storageType":["64G","128G","256GB"]}
+            
             ],
             "itemShopInfo": {
                 "poromotionPointCu": "双十一提前抢，iPhone 11系列火热开售",

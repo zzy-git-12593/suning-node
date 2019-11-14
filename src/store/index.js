@@ -280,35 +280,40 @@ export default new Vuex.Store({
   actions: {
 
     getTypeContentActions(store,id) {
-      axios.get('/type/typeContent?typeId='+id)
+      axios.get('http://localhost:2000/type/typeContent?typeId='+id)
       .then((data)=>{
         store.commit('getTypeContentMutations',data.data)
       })
     },
 
     // 提交请求的商品详情数据
-    getCommodityInfoActions(store, commodityID) {
+    getCommodityInfoActions(store, commdityId) {
 
-      axios.get(`http://localhost:3000/detailsList/${commodityID}`)
-        .then(res => store.commit('getCommodityInfoMutations', res.data)).catch(() => console.log('error'))
+      axios.get(`http://localhost:2000/product/productInfo?commdityId=${commdityId}`)
+        .then(res =>{
+          console.log(res)
+          store.commit('getCommodityInfoMutations', res.data[0])
+        })
+        .catch(() => console.log('error'))
     },
   },
   //删选商品详情轮播数组,将图片分为6个组 渲染到页面
   getters: {
     filterSubGoodsSwiperList(state) {
       let result = []
-      let subGoods = state.commodityInfoList.subGoods.sku.concat()
 
+      let subGoods = state.commodityInfoList.subGoodsSku.concat()
       for (let i = 0; i < subGoods.length; i + 6) {
         result.push(subGoods.splice(i, i + 6))
       }
-      console.log(subGoods)
+      console.log('11111111111',result)
       return result
     },
     filterSubGoodSwiperList(state) {
+      
       let results = []
-      let subGood = state.commodityInfoList.subGood.sku.concat()
-      console.log(subGood)
+      let subGood = state.commodityInfoList.subGoodSku.concat()
+      console.log('2222222222',subGood.length)
       for (let i = 0; i < subGood.length; i + 6) {
         results.push(subGood.splice(i, i + 6))
       }

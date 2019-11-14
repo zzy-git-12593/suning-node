@@ -48,7 +48,7 @@ export default {
     price
   },
   mounted(){
-      axios.get('/shoppingcar/getCommdty')
+      axios.get('http://localhost:2000/shoppingcar/getCommdty')
         .then( (res) =>{
             this.carList = res.data
             console.log(res)

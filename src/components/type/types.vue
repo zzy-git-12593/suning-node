@@ -3,7 +3,9 @@
     <SearchInput class="type-search-input"></SearchInput>
     <div class="type-content">
       <LeftTab class="type-left-tab" :type-title-list="typeTitleList"></LeftTab>
-      <TabContainer class="type-right-tab"></TabContainer>
+      <keep-alive>
+          <TabContainer class="type-right-tab"></TabContainer>
+      </keep-alive>
     </div>
   </div>
 </template>
@@ -21,7 +23,7 @@ export default {
   },
   created() {
     
-    axios.get("/type/typeTitle")
+    axios.get("http://localhost:2000/type/typeTitle")
     .then(res => {
 
         this.typeTitleList = res.data
