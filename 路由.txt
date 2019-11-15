@@ -52,4 +52,23 @@
 		Router.prototype.push = function push(location) {
   		return originalPush.call(this, location).catch(err => err)}
 		或者在每次push路由后面加上一个catch捕捉错误
-	数据：json-server 库，		
+	数据：json-server 库，
+
+	路由 router-view 的keepalive需要指定某个 路由缓存，可在route中meta字段设置参数，	
+
+	<keep-alive>
+    		<router-view v-if="$route.meta.keepAlive"></router-view>
+	</keep-alive>
+	<router-view v-if="!$route.meta.keepAlive"></router-view>
+	
+
+	如果需要指定 某个页面到某个页面缓存或者不缓存，需要设置：、
+
+	router.beforeEach((to, from, next) => {
+ 		if(to.name==='Home' && from.name==='GoodsDetail'){
+    			to.meta.keepAlive = true;
+  		}else{
+   			 to.meta.keepAlive = false;
+  		}
+  		next();
+		});

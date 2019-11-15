@@ -22,12 +22,14 @@ Vue.use(Router)
 let router =new Router({
   // mode: 'history',
   base: process.env.BASE_URL,
-  routes: [{
+  routes: [
+    {
       path: '/search',
       component: Search,
       children: [{
         path: 'searchover',
-        component: SearchOver
+        component: SearchOver,
+
       }]
     },
     {
@@ -43,18 +45,18 @@ let router =new Router({
       component: CommpiltyIntroduction
     },
     {
-      path: '*',
-      redirect: '/homepage/home'
-    },
-    {
       path: '/homepage',
-      redirect: '/homepage/home',
+      redirect:'/homepage/home'
     },
-    
     {
       path: '/homepage',
       component: HomePage,
-      children: [{
+      children: [
+        {
+          path: '/',
+          redirect:'/homepage/home'
+        },
+        {
           path: 'home',
           component: Home
         },
@@ -68,7 +70,7 @@ let router =new Router({
         },
         {
           path: 'shoppingcar',
-          component: ShoppingCar
+          component: ShoppingCar 
         },
         {
           path: 'myyglogin',
@@ -76,9 +78,15 @@ let router =new Router({
           meta:{
             requireAuth:true
           }
-        }
+        },
       ]
     },
+    {
+      path: '*',
+      redirect:'/homepage/home'
+    },
+
+
   ]
 })
 

@@ -36,32 +36,7 @@ import ComSwiper from "../swipers/comSwiper";
 import {mapState} from 'vuex'
 export default {
     props: ['isShow','msg'],
-    data(){
-        return {
-            imgList: [
-                {
-                    id: 1,
-                    url: '//imgservice.suning.cn/uimg1/b2c/image/Qn7b9Gmyw-MJigi8TinMjw.jpg_800w_800h_4e_100Q'
-                },
-                {
-                    id: 2,
-                    url: '//imgservice.suning.cn/uimg1/b2c/image/Qn7b9Gmyw-MJigi8TinMjw.jpg_800w_800h_4e_100Q'
-                },
-                {
-                    id: 3,
-                    url: '//imgservice.suning.cn/uimg1/b2c/image/mDftoylWRDbwwwQDWQINtQ.jpg_800w_800h_4e_100Q'
-                },
-                {
-                    id: 4,
-                    url: '//imgservice.suning.cn/uimg1/b2c/image/LbtxdV9KutPS5BrOGq8fXg.jpg_800w_800h_4e_100Q'
-                },
-                {
-                    id: 5,
-                    url: '//imgservice.suning.cn/uimg1/b2c/image/IwQ5kvaLMpLj_51_6Us30g.jpg_800w_800h_4e_100Q'
-                }
-            ]
-        }
-    },
+    
     computed:{
         ...mapState(['commodityInfoList'])
     },

@@ -3,9 +3,8 @@
       <div class="shopping_car_commdlity_list_wrapper" :class="{'list_margin':shoppingCarList.length}">
           <carNav></carNav>
           <loginPrompt></loginPrompt>
-          <!-- <div v-show="!shoppingCarList.length" class="un_login_prompt"> -->
-          <div v-show="!carList.length > 0" class="un_login_prompt">
 
+          <div v-show="!shoppingCarList.length" class="un_login_prompt">
                 <span class="el-icon-shopping-cart-2"></span>
                 <span style="font-size:14px; color:#999999">购物车还是空的，快来挑选好货吧</span>
                 <div class="un_login_btn">
@@ -13,12 +12,12 @@
                     <span class="un_login_btn_my" @click="shoppingCarToMy">查看优惠</span>
                 </div>
           </div>
-          <!-- <carComList  v-show="shoppingCarList.length"></carComList> -->
-          <carComList  v-show="carList.length > 0" :car-list ='carList'></carComList>
+          
+          <carComList  v-if="shoppingCarList.length > 0" ></carComList>
 
           <yourLike></yourLike>
       </div>
-      <div class="shopping_car_commdlity_statistics_wrapper" v-show="shoppingCarList.length">
+      <div class="shopping_car_commdlity_statistics_wrapper" v-if="shoppingCarList.length>0">
           <price></price>
       </div>
   </div>
@@ -27,19 +26,14 @@
 import carNav from "../../views/shpping-car/unlogin/carNav";
 import loginPrompt from "../../views/shpping-car/unlogin/loginPrompt";
 import carComList from "../../views/shpping-car/unlogin/carComList";
-import yourLike from "../../views/shpping-car/unlogin/yourLike";
+import yourLike from "../../views/home/yourLike";
 import price from "../../views/shpping-car/unlogin/price";
 
 import {mapState} from "vuex";
 import axios from "axios";
 
 export default {
-  data(){
-    return{
-      // 后端获取数据
-      carList:[]
-    }
-  },
+
   components: {
     carNav,
     loginPrompt,
@@ -48,12 +42,8 @@ export default {
     price
   },
   mounted(){
-      axios.get('http://localhost:2000/shoppingcar/getCommdty')
-        .then( (res) =>{
-            this.carList = res.data
-            console.log(res)
-        })
-        .catch((err)=>{console.log(err)})
+    // 获取购物车数据存在store 
+    this.$store.dispatch('getShoppingCarActions')    
   },
   computed:{
     ...mapState(['shoppingCarList'])

@@ -1,7 +1,9 @@
 <template>
   <div class="home-container">
     <transition>
-      <router-view :is-window-top-show="isWindowTopShow" :is-nav-show="isNavShow"></router-view>
+          <keep-alive>
+              <router-view :is-window-top-show="isWindowTopShow" :is-nav-show="isNavShow"></router-view>
+          </keep-alive>
     </transition>
     <div class="footer">
       <div class="tab-nav">

@@ -12,7 +12,7 @@
                     </div>
                 </div>
             </li>
-            <li :class="{active1: msg==4}" @click="tabClick(4)">帅选</li>
+            <li :class="{active1: msg==4}" @click="tabClick(4)">筛选</li>
         </ul>
     </div>
 </template>

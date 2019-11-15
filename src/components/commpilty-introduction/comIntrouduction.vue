@@ -14,10 +14,10 @@
       <comIntroducations></comIntroducations>
 
 
-    <!--回到顶部-->
-    <div class="comintrouduction-el-icon-top scrollTop" v-if="showTop" @click="toTop">
-      <span class="el-icon-top"></span>
-    </div>
+      <!--回到顶部-->
+      <div class="comintrouduction-el-icon-top scrollTop" v-if="showTop" @click="toTop">
+        <span class="el-icon-top"></span>
+      </div>
 
     </div>
     <div class="comintrouduction-bottom">

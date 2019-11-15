@@ -3,7 +3,7 @@
     <TopNav></TopNav>
     <MyOrder></MyOrder>
     <Tools></Tools>
-    <GoodRecommend></GoodRecommend>
+    <yourLike></yourLike>
   </div>
 </template>
 
@@ -11,9 +11,9 @@
 import TopNav from "../../views/my-yg/sign-in/TopNav";
 import MyOrder from "../../views/my-yg/sign-in/MyOrder";
 import Tools from "../../views/my-yg/sign-in/Tools";
-import GoodRecommend from "../../views/my-yg/sign-in/GoodRecommend";
+import yourLike from "../../views/home/yourLike";
 export default {
-  components: {TopNav,MyOrder,Tools,GoodRecommend}
+  components: {TopNav,MyOrder,Tools,yourLike}
 };
 </script>
 <style scoped>

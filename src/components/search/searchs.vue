@@ -16,18 +16,18 @@
 
     <div v-if="isShow">
 
-      <div class="searchs-bottom" v-if="isNone">
-        <div class="searchs-bottom-nav">热门搜索</div>
-        <div class="searchs-bottom-box">
-          <div class="searchs-bottom-item" v-for="(item,index) in searchHistoryList" :key="index">
+      <div class="hot-search-wrapper">
+        <div class="hot-search-title">热门搜索</div>
+        <div class="hot-search">
+          <div class="hot-search-item" v-for="(item,index) in searchHistoryList" :key="index">
             <span @click="historySearch(item)">{{item}}</span>
           </div>
         </div>
       </div>
-        <div class="searchs-bottom-box-xiangguan" v-if="!isNone">
+        <div class="searchs-result" v-if="isNone">
               <div>搜索到的商品如下</div>
-              <div v-for="item in searchResult" :key="item.id" class="search-list">
-                <span >{{item.cmmdtyName}}</span>
+              <div v-for="item in searchResult" :key="item.id" class="search-list" @click="historySearch(item.cmmdtyName)">
+                <span>{{item.cmmdtyName}}</span>
                 <div>
                     <span class="type">价格</span>
                     <span class="type">电池</span>
@@ -54,7 +54,7 @@ export default {
       noFind: false,
       isShow: true,
       timer: 0,
-      isNone: true,
+      isNone: false,
       searchHistoryList:[]
     };
   },
@@ -62,11 +62,18 @@ export default {
     bus.$on("isShow", data => { 
       this.isShow = data;
     });
+
+    // 刷新页面获取
+    bus.$on("searchText", data => { 
+      this.searchText = data
+    });
   },
   created () {
+
+    // 创建时获取本地保存的搜索记录
       if(localStorage.searchHistoryList){
         this.searchHistoryList =JSON.parse(localStorage.searchHistoryList)
-      }
+      };
   },
   methods: {
     // 搜索字段，展示分类名称
@@ -75,30 +82,35 @@ export default {
         clearTimeout(this.timer);
       }
       this.timer = setTimeout(() => {
-        axios.get("http://localhost:3000/typeList").then(res => {
-          // 请求搜索前置空
-          this.searchResult = [];
-          res.data.filter(item => {
-            // 去首位空格后输入不为空的时候查找
-            if (this.searchText.trim().length) {
-              if (item.cmmdtyTitle.includes(this.searchText)) {
-                  this.searchResult.push(item);
-                  // return this.searchResult;
-              }
-              // 当找到商品的时候，完成列表和未搜索到提示显示 
-              if (this.searchResult.length > 0) {
-                this.isNone = false;
-                this.noFind = false;
-              } else {
-                this.isNone = true;
-                this.noFind = true;
-              } 
+        
+        // 去首位空格后输入不为空的时候查找
+        if (this.searchText.trim().length>0) {
+        axios.get("http://localhost:2000/product/search?searchWord="+this.searchText).then(res => {
+            // 请求搜索前置空
+            this.searchResult = [];
+
+            // 未搜索到商品 
+            if(res.data == false) {
+
+              this.isNone = false;//搜索结果显示为不显示 
+              this.noFind = true;//未找到提示显示
+
             } else {
-                this.isNone = true;
-                this.noFind = false;
-              }
-          });
-        });
+
+              // 将结果复制给searchResult数组
+              this.searchResult = res.data.concat()
+              this.isNone = true;//搜索结果显示
+              this.noFind = false;//未找到提示不显示
+
+            }
+          });  
+
+        } else {//搜索为空时，搜索结果显示与未找到提示显示，都为false
+
+            this.isNone = false;
+            this.noFind = false;
+        }
+
       }, 500);
     },
     backClick() {
@@ -108,7 +120,7 @@ export default {
           this.$router.go(-1)
           // 返回置空
           this.searchText =''
-          this.isNone =true
+          this.isNone =false
           this.noFind = false
         }
         
@@ -118,35 +130,44 @@ export default {
       if (this.$route.path == "/search/searchover") {
           this.$router.push("/search");
           this.searchText =''
-          this.isNone =true
+          this.isNone = false
           this.noFind = false
       }
     },
     // 跳转路由，携带搜索参数
     goSearchOver() {
-      if(!this.searchText){
+      //去搜索页面，未搜索到提示页面false
+      this.noFind = false
+      if( !this.searchText ) {
           this.searchText =this.defaultSearchInfo
        }
-
-      if((!this.searchHistoryList.includes(this.searchText))&&this.searchText.trim().length){
+      if( !(this.searchHistoryList.includes(this.searchText)) && this.searchText.length > 0){//当历史记录未找到并且输入框存在值
             this.searchHistoryList.push(this.searchText)
       } 
-      localStorage.setItem('searchHistoryList',JSON.stringify(this.searchHistoryList)) 
+      // 存入本地
+      localStorage.setItem('searchHistoryList',JSON.stringify(this.searchHistoryList));
+
+      // 调用路由跳转
+      this.routerJump();
+       
+    },
+    // 点击历史记录搜索 / 点击搜索展示列表搜索
+    historySearch(item){
+      this.searchText = item
+      this.routerJump()
+    },
+
+    // 路由跳转函数
+    routerJump() {
       if (this.$route.path != "/search/searchover") {
        this.$router.push({
           path: "/search/searchover",
           // 判断搜索框是否存在，否则传入默认placeholder值
           query: {
-            searchtext: this.searchText
+            searchtext: this.searchText ? this.searchText : this.defaultSearchInfo
           }
         });
       }
-       
-    },
-    // 点击历史记录搜索
-    historySearch(item){
-      this.searchText = item
-      this.goSearchOver()
     }
   }
 };
@@ -211,17 +232,17 @@ export default {
   line-height: 27px;
 
 }
-.searchs-app .searchs-bottom {
+.searchs-app .hot-search-wrapper {
   width: 100%;
   padding: 20px 10px;
 }
-.searchs-app .searchs-bottom-nav {
+.searchs-app .hot-search-title {
   width: 100%;
   font-size: 14px;
   color: #333333;
   font-weight: bold;
 }
-.searchs-app .searchs-bottom-box {
+.searchs-app .hot-search {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -229,7 +250,7 @@ export default {
   width: 100%;
   font-size: 15px;
 }
-.searchs-app .searchs-bottom-item {
+.searchs-app .hot-search-item {
   width: 30.5%;
   margin: 10px 10px 0 0;
   padding: 5px 0;
@@ -242,17 +263,17 @@ export default {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.searchs-app .searchs-bottom-item .active1 {
+.searchs-app .hot-search-item .active1 {
   color: #f60;
 }
 .searchs-app .el-icon-s-unfold{
   font-size: 25px;
   line-height: 25px
 }
-.searchs-bottom-box-xiangguan{
+.searchs-result{
   width: 100%;
 }
-.searchs-bottom-box-xiangguan div{
+.searchs-result div{
   margin: 0 10px;
   border-bottom: 1px solid #f2f2f2;
   padding: 8px 0px;

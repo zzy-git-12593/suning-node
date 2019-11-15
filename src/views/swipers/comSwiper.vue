@@ -15,17 +15,19 @@ import "swiper/css/swiper.min.css";
 
 export default {
   mounted() {
-    new Swiper(".top-swiper", {
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'fraction',
-        renderFraction: function (currentClass, totalClass) {
-          return '<span class="' + currentClass + '"></span>' +
-                 ' / ' +
-                 '<span class="' + totalClass + '"></span>';
-        },
-      }
-    });
+    this.$nextTick(()=>{
+       new Swiper(".top-swiper", {
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'fraction',
+          renderFraction: function (currentClass, totalClass) {
+            return '<span class="' + currentClass + '"></span>' +
+                  ' / ' +
+                  '<span class="' + totalClass + '"></span>';
+          },
+        }
+      });
+    })
   }
 };
 </script>

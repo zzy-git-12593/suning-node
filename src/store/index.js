@@ -13,13 +13,13 @@ export default new Vuex.Store({
     typeInput: '',
     typeInputList: [],
     commodityInfoList: null,
-    shoppingCarList: [],
     //购买全选按钮
     isBuyCheck: false,
     // 删除按钮
     isDelBtn: false,
     // 删除全选按钮
-    isDelCheck: false
+    isDelCheck: false,
+    shoppingCarList:[],
   },
   mutations: {
     // 获取分类页内容：
@@ -275,17 +275,80 @@ export default new Vuex.Store({
         // 本地同步数据
         localStorage.shoppingCarList = JSON.stringify(state.shoppingCarList)
       }
+    },
+
+    // 获取购物车数据
+    getShoppingCarMutations(state,data){
+        state.shoppingCarList = data
+    },
+    // 减少购物车数据
+    minusCommdlityCountMutations(state,data) {
+        state.shoppingCarList = data
+    },
+    // 购物车 选中删除按钮状态
+    CheckBtnMutations(state,data) {
+        state.shoppingCarList = data
     }
   },
   actions: {
+    // 获取购物车数据
+    getShoppingCarActions(store){
 
+      axios.get('http://localhost:2000/shoppingcar/getCommdty')
+      .then((data)=>{
+        console.log('购物车数据',data)
+        store.commit('getShoppingCarMutations',data.data)
+      })
+    },
+    // 获取分类内容数据
     getTypeContentActions(store,id) {
       axios.get('http://localhost:2000/type/typeContent?typeId='+id)
       .then((data)=>{
         store.commit('getTypeContentMutations',data.data)
       })
     },
+    // 购物车数量减少
+    minusCommdlityCountActions(store,id){
+        axios.post('http://localhost:2000/shoppingcar/minusDo',{
+          params:{id:id}
+        }).then((res)=>{
+          store.commit('minusCommdlityCountMutations', res.data)
+        }).catch((err)=>console.log(err))
+    },
 
+    // 购物车数量增加
+    addCommdlityCountActions(store,id){
+      axios.post('http://localhost:2000/shoppingcar/addDo',{
+        params:{id:id,count:0}
+      }).then((res)=>{
+        store.commit('minusCommdlityCountMutations', res.data)
+      }).catch((err)=>console.log(err))
+  },   
+
+    // 购物车购买/删除选中
+    buyCheckBtnActions(store,obj){
+      axios.post('http://localhost:2000/shoppingcar/check',{
+        params:{
+          id:obj.id,
+          checkType:'buy',
+          checkVal:obj.checkVal
+        }
+      }).then((res)=>{
+        store.commit('CheckBtnMutations', res.data)
+      }).catch((err)=>console.log(err))
+  },   
+    // 购物车购买/删除选中
+    delCheckBtnActions(store,obj){
+      axios.post('http://localhost:2000/shoppingcar/check',{
+        params:{
+          id:obj.id,
+          checkType:'del',
+          checkVal:obj.checkVal
+        }
+      }).then((res)=>{
+        store.commit('CheckBtnMutations', res.data)
+      }).catch((err)=>console.log(err))
+  },   
     // 提交请求的商品详情数据
     getCommodityInfoActions(store, commdityId) {
 

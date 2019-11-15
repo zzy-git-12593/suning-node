@@ -47,27 +47,32 @@ export default {
         // 添加购物车
         addCommltyToCar(item){
 
-             axios.get('http://localhost:2000/shoppingcar/addDo', {
+             axios.post('http://localhost:2000/shoppingcar/addDo', {
                 params: {
                     id:item.id,
-                    cmmdtyTitle:item.cmmdtyName,
+                    commName:item.cmmdtyName,
                     imgUrl:item.imgUrl,
                     price:item.price,
                     // color:this.commodityInfoList.color,
-                    count:this.count
+                    isBuyCheck:0,
+                    isDelCheck:0,
+                    count:1
                 }
             })
             .then( (response)=>{
-                console.log(response);
+                // 更新购物车数据在store 
+                this.$store.dispatch('getShoppingCarActions')
             })
             .catch((error)=>{
                 console.log(error);
             });
+            
         },
 
         enterCommlityInfo(item){
             this.$router.push({path:'/commpiltyintroduction',query:{commodityID:item.id}})
-        }
+        },
+              
     }
 }
 </script>

@@ -7,11 +7,9 @@
             </div>
             <div class="content">
                 <ul>
-                    <li v-for="item in typeContentList.list" :key="item.id">
-                        <router-link to="" tag="div">
-                            <img :src="item.imgUrl">
-                            <span>{{item.comName}}</span>
-                        </router-link>
+                    <li v-for="item in typeContentList.list" :key="item.id" @click="goSearchOver(item.comName)">           
+                        <img :src="item.imgUrl">
+                        <span>{{item.comName}}</span>
                     </li>
                 </ul>
             </div>
@@ -23,6 +21,18 @@ import {mapState} from "vuex";
 export default {
     computed:{
         ...mapState(['typeContentList'])
+    },
+    methods:{
+        goSearchOver(item) {
+           
+            this.$router.push({
+                path: "/search/searchover",
+                // 判断搜索框是否存在，否则传入默认placeholder值
+                query: {
+                    searchtext: item
+                }
+            });
+        }
     }
 }
 </script>

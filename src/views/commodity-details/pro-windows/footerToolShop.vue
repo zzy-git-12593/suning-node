@@ -57,6 +57,7 @@ export default {
     },
     methods: {
         shopDownClick() {
+            // 传入footerTool组件
             this.$emit('shop-down-click')
         },
         addCommlityClick(){
@@ -68,30 +69,24 @@ export default {
             }
         },
         addShoppingCarClick(){
+            // 传入footerTool组件
             this.$emit('shop-down-click')
             // 提交购物车数据
-            this.$store.commit('addShoppingCarMutations',
-            {
-                id:this.commodityInfoList.id,
-                cmmdtyTitle:this.commodityInfoList.cmmdtyTitle,
-                imgUrl:this.commodityInfoList.imgUrl,
-                price:this.commodityInfoList.price,
-                color:this.commodityInfoList.color,
-                count:this.count
-            })
-            
-            axios.get('http://localhost:2000/shoppingcar/addDo', {
+
+            axios.post('http://localhost:2000/shoppingcar/addDo', {
                 params: {
                         id:this.commodityInfoList.id,
                         cmmdtyTitle:this.commodityInfoList.cmmdtyTitle,
                         imgUrl:this.commodityInfoList.imgUrl,
                         price:this.commodityInfoList.price,
+                        isBuyCheck:0,
+                        isDelCheck:0,
                         // color:this.commodityInfoList.color,
                         count:this.count
                 }
             })
-            .then( (response)=>{
-                console.log(response);
+            .then( (res)=>{
+                console.log(res);
             })
             .catch((error)=>{
                 console.log(error);

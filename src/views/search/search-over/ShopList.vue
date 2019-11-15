@@ -1,6 +1,6 @@
 <template>
   <div class="shoplist">
-    <ul>
+    <ul v-if="searchcmmdtyList">
       <li v-for="item in searchcmmdtyList" :key="item.id"  @click="goCommodityInfoPage(item)">
         <div class="img-box">
           <img :src="item.imgUrl" />
@@ -52,6 +52,10 @@
         </div>
       </li>
     </ul>
+    <div v-else class="no_search">
+        <span class="el-icon-refresh-left"></span>
+        <span>十分抱歉未搜索到符合的商品</span>
+    </div>
   </div>
 </template>
 <script>
@@ -66,6 +70,8 @@ export default {
     };
   },
   mounted() {
+    
+    // 改变父组件显示
     bus.$emit("isShow", false);
 
     // 本地存储 预防刷新丢失数据
@@ -75,19 +81,23 @@ export default {
     } else {
       this.searchcmmdtyTitle = this.$route.query.searchtext;
     }
-    
-    axios.get("http://localhost:2000/product/search?searchWord="+this.searchcmmdtyTitle)
+
+    // 刷新页面，input框读取路由参数
+    bus.$emit('searchText',this.searchcmmdtyTitle)
+
+    // 搜索商品列表
+    axios.get("http://localhost:2000/product/searchList?searchWord="+this.searchcmmdtyTitle)
     .then(res => {
-        this.searchcmmdtyList = res.data
-        console.log(this.searchcmmdtyList)
+        this.searchcmmdtyList = res.data;
+        console.log(this.searchcmmdtyList);
       });
-      
-     bus.$emit('searchSwiperList',this.searchcmmdtyList)
+
   },
 
-  // 销毁前传回数据
+  // 销毁前重置传来的数据
   destroyed() {
     bus.$emit("isShow", true);
+    bus.$emit("searchText", '');
   },
   methods: {
     goCommodityInfoPage(item) {

@@ -4,55 +4,34 @@
              <span class="shopping_car_commdlity_chosed"  :class="{active:shoppingCarList.length}"></span>
              <span>苏宁自营</span>
          </div>
-        <div class="shopping_car_commdlity_item_wrapper" v-for="(item,index) in carList" :key="index">
+         <!-- 购物车数据 -->
+        <div class="shopping_car_commdlity_item_wrapper" v-for="(item,index) in shoppingCarList" :key="index">
+            <!-- 购买时选中 -->
+            <div class="commdlity_item_chose_btn" :class="{active:item.isBuyCheck}" @click="buyCheckBtn(item)" v-show="delCommdlity">√</div>
+            <!-- 删除选时中 -->
+            <div class="commdlity_item_chose_btn" :class="{del_active:item.isDelCheck}" @click="delCheckBtn(item)" v-show="!delCommdlity">-</div>
 
             <div class="commdlity_item_info_wrapper">
+                <!-- 图片 -->
                 <div class="commdlity_item_img" @click="shoppingCarCommdlityToInfo(item)">
-                    <img :src="item.imgurl" alt="">
+                    <img :src="item.imgUrl" alt="">
                 </div>
                 <div class="commdlity_item_desc">         
                     <!-- 标题 -->
                     <div class="commdlity_item_name_wrapper">
-                        <div class="commdlity_item_name_title">{{item.pname}}</div>
+                        <div class="commdlity_item_name_title">{{item.comName}}</div>
                         <!-- <span class="commdlity_item_type_chose_btn">{{item.color}}</span> -->
                     </div>
                     <!-- 价格 数量 -->
                     <div class="commdlity_item_price_wrapper">
                         <div class="commdlity_item_price"><span>￥</span><span>{{item.price}}</span></div>
                         <div class="commdlity_item_count">
-                            <span @click="shoppingCarCommdlityMinus(index)">-</span><span>{{item.count}}</span><span @click="shoppingCarCommdlityAdd(index)">+</span>
+                            <span @click="shoppingCarCommdlityMinus(item)">-</span><span>{{item.count}}</span><span @click="shoppingCarCommdlityAdd(item)">+</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-         <!-- 列表 -->
-        <!-- <div class="shopping_car_commdlity_item_wrapper" v-for="(item,index) in shoppingCarList" :key="item.id">
-            购买时选中
-            <div class="commdlity_item_chose_btn" :class="{active:item.isChosed}" @click="commdlityChosedBtn(index)" v-show="delCommdlity">√</div>
-            删除选时中
-            <div class="commdlity_item_chose_btn" :class="{del_active:item.isDelChosed}" @click="delCommdlityChosedBtn(index)" v-show="!delCommdlity">-</div>
-            <div class="commdlity_item_info_wrapper">
-                <div class="commdlity_item_img" @click="shoppingCarCommdlityToInfo(item)">
-                    <img :src="item.imgUrl" alt="">
-                </div>
-                <div class="commdlity_item_desc">         
-                    标题
-                    <div class="commdlity_item_name_wrapper">
-                        <div class="commdlity_item_name_title">{{item.cmmdtyTitle}}</div>
-                        <span class="commdlity_item_type_chose_btn">{{item.color}}</span>
-                    </div>
-                    价格 数量
-                    <div class="commdlity_item_price_wrapper">
-                        <div class="commdlity_item_price"><span>￥</span><span>{{item.price}}</span></div>
-                        <div class="commdlity_item_count">
-                            <span @click="shoppingCarCommdlityMinus(index)">-</span><span>{{item.count}}</span><span @click="shoppingCarCommdlityAdd(index)">+</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </div>
 </template>
 <script>
@@ -64,45 +43,59 @@ export default {
         return{
             list:[],
             delCommdlity:true,
+            isBuyCheck:0,
+            isDelCheck:0
         }
     },
-    props:['carList'],
     beforeMount(){
         // 接受右上角删除与购买切换按钮
         bus.$on('delCommdlity',data=>{
             this.delCommdlity = data
-            })
+        })
     },
     computed:{
         ...mapState(['shoppingCarList']),
-        ...mapState(['isDelChose'])
-
+        ...mapState(['isDelChose']),
+        ...mapState(['shoppingCarList'])
     },
-    // methods:{
-    //     // 加
-    //     shoppingCarCommdlityAdd(index){
-    //         this.$store.commit("addShoppingCarCommdlityCount",index)
-    //     },
-    //     // 减
-    //     shoppingCarCommdlityMinus(index){
-    //         this.$store.commit("minusShoppingCarCommdlityCount",index)
-    //     },
-    //     // 购买选中
-    //     commdlityChosedBtn(index){
-    //         this.$store.commit("commdlityChosedBtn",index)
-    //     },
-    //     // 删除选中
-    //     delCommdlityChosedBtn(index){
-    //         this.$store.commit('delCommdlityChosedBtn',index)
-    //     },
+    methods:{
+       // 加
+        shoppingCarCommdlityAdd(item){
+             this.$store.dispatch("addCommdlityCountActions",item.commdtyId);
+        },
+        // 减
+        shoppingCarCommdlityMinus(item){
+             this.$store.dispatch("minusCommdlityCountActions",item.commdtyId);
+
+        },
+         // 购买选中
+        buyCheckBtn(item){
+
+            if(item.isBuyCheck== 0){
+                this.isBuyCheck = 1
+            }
+            if(item.isBuyCheck == 1) {
+                this.isBuyCheck = 0
+            }
+            this.$store.dispatch("buyCheckBtnActions",{id:item.commdtyId,checkVal:this.isBuyCheck})
+        },
+        // 删除选中
+        delCheckBtn(item){
+
+            if(item.isDelCheck== 0){
+                this.isDelCheck = 1
+            }
+            if(item.isDelCheck == 1) {
+                this.isDelCheck = 0
+            }          
+            this.$store.dispatch("delCheckBtnActions",{id:item.commdtyId,checkVal:this.isDelCheck})
+        },
+
     //     // 购物车跳商品详情
     //     shoppingCarCommdlityToInfo(item){
     //         this.$router.push({path:'/commpiltyintroduction',query:{commodityID:item.id}})
     //     }
-        
-
-        
-    // }
+    }
 }
 </script>
 <style>
