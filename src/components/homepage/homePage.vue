@@ -2,7 +2,13 @@
   <div class="home-container">
     <transition>
           <keep-alive>
-              <router-view :is-window-top-show="isWindowTopShow" :is-nav-show="isNavShow"></router-view>
+              <router-view :is-window-top-show="isWindowTopShow" :is-nav-show="isNavShow" v-if="$route.meta.keepAlive"></router-view>
+          </keep-alive>
+    </transition>
+
+    <transition>
+          <keep-alive>
+              <router-view :is-window-top-show="isWindowTopShow" :is-nav-show="isNavShow" v-if="!$route.meta.keepAlive"></router-view>
           </keep-alive>
     </transition>
     <div class="footer">

@@ -56,16 +56,16 @@ export default {
     computed:{
         ...mapState(['shoppingCarList']),
         ...mapState(['isDelChose']),
-        ...mapState(['shoppingCarList'])
+        ...mapState(['uId'])
     },
     methods:{
        // 加
         shoppingCarCommdlityAdd(item){
-             this.$store.dispatch("addCommdlityCountActions",item.commdtyId);
+             this.$store.dispatch("addCommdlityCountActions",{commdtyId:item.commdtyId,uId:this.uId});
         },
         // 减
         shoppingCarCommdlityMinus(item){
-             this.$store.dispatch("minusCommdlityCountActions",item.commdtyId);
+             this.$store.dispatch("minusCommdlityCountActions",{commdtyId:item.commdtyId,uId:this.uId});
 
         },
          // 购买选中
@@ -77,7 +77,7 @@ export default {
             if(item.isBuyCheck == 1) {
                 this.isBuyCheck = 0
             }
-            this.$store.dispatch("buyCheckBtnActions",{id:item.commdtyId,checkVal:this.isBuyCheck})
+            this.$store.dispatch("buyCheckBtnActions",{id:item.commdtyId,checkVal:this.isBuyCheck,uId:this.uId})
         },
         // 删除选中
         delCheckBtn(item){
@@ -88,13 +88,13 @@ export default {
             if(item.isDelCheck == 1) {
                 this.isDelCheck = 0
             }          
-            this.$store.dispatch("delCheckBtnActions",{id:item.commdtyId,checkVal:this.isDelCheck})
+            this.$store.dispatch("delCheckBtnActions",{id:item.commdtyId,checkVal:this.isDelCheck,uId:this.uId})
         },
 
-    //     // 购物车跳商品详情
-    //     shoppingCarCommdlityToInfo(item){
-    //         this.$router.push({path:'/commpiltyintroduction',query:{commodityID:item.id}})
-    //     }
+        // 购物车跳商品详情
+        shoppingCarCommdlityToInfo(item){
+            this.$router.push({path:'/commpiltyintroduction',query:{commodityID:item.commdtyId}})
+        }
     }
 }
 </script>

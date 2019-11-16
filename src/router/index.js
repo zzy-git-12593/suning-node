@@ -29,24 +29,29 @@ let router =new Router({
       children: [{
         path: 'searchover',
         component: SearchOver,
-
       }]
     },
     {
       path: '/myygunlogin',
-      component: MyYgUnLogin
+      component: MyYgUnLogin,
     },
     {
       path:'/register',
-      component:Register
+      component:Register,
+      meta:{
+        keepAlive:false
+      }
     },
     {
       path: '/commpiltyintroduction',
-      component: CommpiltyIntroduction
+      component: CommpiltyIntroduction,
     },
     {
       path: '/homepage',
-      redirect:'/homepage/home'
+      redirect:'/homepage/home',
+      meta:{
+        keepAlive:true
+      }
     },
     {
       path: '/homepage',
@@ -54,23 +59,33 @@ let router =new Router({
       children: [
         {
           path: '/',
-          redirect:'/homepage/home'
+          redirect:'/homepage/home',
+          meta:{
+            keepAlive:true
+          }
         },
         {
           path: 'home',
-          component: Home
+          component: Home,
+          meta:{
+            keepAlive:true
+          }
         },
         {        
           path: 'type',
-          component: Type
+          component: Type,
+          meta:{
+            keepAlive:true
+          }
         },
         {
           path: 'other',
-          component: Other
+          component: Other,
+
         },
         {
           path: 'shoppingcar',
-          component: ShoppingCar 
+          component: ShoppingCar ,
         },
         {
           path: 'myyglogin',

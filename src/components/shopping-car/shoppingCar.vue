@@ -41,13 +41,16 @@ export default {
     yourLike,
     price
   },
-  mounted(){
-    // 获取购物车数据存在store 
-    this.$store.dispatch('getShoppingCarActions')    
-  },
   computed:{
-    ...mapState(['shoppingCarList'])
+    ...mapState(['shoppingCarList']),
+    ...mapState(['uId']),
   },
+  created(){
+    console.log(this.uId)
+    // 获取购物车数据存在store 
+    this.$store.dispatch('getShoppingCarActions',this.uId)    
+  },
+
   methods: {
     shoppingCarToHome(){
       this.$router.push('/homepage/home')

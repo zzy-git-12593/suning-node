@@ -20,6 +20,7 @@ export default new Vuex.Store({
     // 删除全选按钮
     isDelCheck: false,
     shoppingCarList:[],
+    uId:null
   },
   mutations: {
     // 获取分类页内容：
@@ -288,13 +289,18 @@ export default new Vuex.Store({
     // 购物车 选中删除按钮状态
     CheckBtnMutations(state,data) {
         state.shoppingCarList = data
+    },
+    // token验证成功
+    verifyTokenMutation(state,data) {
+        state.uId =  data
     }
+
   },
   actions: {
     // 获取购物车数据
-    getShoppingCarActions(store){
+    getShoppingCarActions(store,uId){
 
-      axios.get('http://localhost:2000/shoppingcar/getCommdty')
+      axios.get(`http://localhost:2000/shoppingcar/getCommdty?id=${uId}`)
       .then((data)=>{
         console.log('购物车数据',data)
         store.commit('getShoppingCarMutations',data.data)
@@ -308,19 +314,24 @@ export default new Vuex.Store({
       })
     },
     // 购物车数量减少
-    minusCommdlityCountActions(store,id){
+    minusCommdlityCountActions(store,obj){
         axios.post('http://localhost:2000/shoppingcar/minusDo',{
-          params:{id:id}
-        }).then((res)=>{
+          params:{
+            commdtyId:obj.commdtyId,
+            uId:obj.uId
+          }}).then((res)=>{
           store.commit('minusCommdlityCountMutations', res.data)
         }).catch((err)=>console.log(err))
     },
 
     // 购物车数量增加
-    addCommdlityCountActions(store,id){
+    addCommdlityCountActions(store,obj){
       axios.post('http://localhost:2000/shoppingcar/addDo',{
-        params:{id:id,count:0}
-      }).then((res)=>{
+        params:{
+          commdtyId:obj.commdtyId,
+          uId:obj.uId,
+          count:0
+        }}).then((res)=>{
         store.commit('minusCommdlityCountMutations', res.data)
       }).catch((err)=>console.log(err))
   },   
@@ -330,6 +341,7 @@ export default new Vuex.Store({
       axios.post('http://localhost:2000/shoppingcar/check',{
         params:{
           id:obj.id,
+          uId:obj.uId,
           checkType:'buy',
           checkVal:obj.checkVal
         }
@@ -342,6 +354,7 @@ export default new Vuex.Store({
       axios.post('http://localhost:2000/shoppingcar/check',{
         params:{
           id:obj.id,
+          uId:obj.uId,
           checkType:'del',
           checkVal:obj.checkVal
         }
@@ -350,15 +363,27 @@ export default new Vuex.Store({
       }).catch((err)=>console.log(err))
   },   
     // 提交请求的商品详情数据
-    getCommodityInfoActions(store, commdityId) {
+    getCommodityInfoActions(store, commdtyId) {
 
-      axios.get(`http://localhost:2000/product/productInfo?commdityId=${commdityId}`)
+      axios.get(`http://localhost:2000/product/productInfo?commdtyId=${commdtyId}`)
         .then(res =>{
           console.log(res)
           store.commit('getCommodityInfoMutations', res.data[0])
         })
         .catch(() => console.log('error'))
-    },
+  },
+
+    // token 验证
+    verifyToken(store,data) {
+      axios.post('http://localhost:2000/token',{
+        token:data
+      }).then((res)=>{
+        if(res.data.state) {
+            store.commit('verifyTokenMutation', res.data.id)
+          }
+      })
+    }
+
   },
   //删选商品详情轮播数组,将图片分为6个组 渲染到页面
   getters: {

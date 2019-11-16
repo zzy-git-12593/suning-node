@@ -21,8 +21,11 @@ export default {
       typeTitleList:[] //prop传值
     };
   },
+  computed:{
+    ...mapState(['uId'])
+  },
   created() {
-    
+    console.log(this.uId)
     axios.get("http://localhost:2000/type/typeTitle")
     .then(res => {
 

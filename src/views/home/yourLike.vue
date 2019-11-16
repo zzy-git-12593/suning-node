@@ -26,16 +26,20 @@
     </div>
 </template>
 <script>
-import axios from "axios"
+import axios from "axios";
+import {mapState} from "vuex"
 export default {
     data(){
         return{
             recommendList:[]
         }
     },
-    created () {
+    computed:{
+        ...mapState(['uId']),
+    },
+    mounted () {
         // 请求推荐数据
-        axios.get('http://localhost:2000/product/recommend')
+        axios.get('http://localhost:2000/product/recommend?')
         .then(res=>{
             this.recommendList = res.data
             console.log( this.recommendList )
@@ -46,27 +50,30 @@ export default {
 
         // 添加购物车
         addCommltyToCar(item){
+            if(this.uId) {
 
-             axios.post('http://localhost:2000/shoppingcar/addDo', {
-                params: {
-                    id:item.id,
-                    commName:item.cmmdtyName,
-                    imgUrl:item.imgUrl,
-                    price:item.price,
-                    // color:this.commodityInfoList.color,
-                    isBuyCheck:0,
-                    isDelCheck:0,
-                    count:1
-                }
-            })
-            .then( (response)=>{
-                // 更新购物车数据在store 
-                this.$store.dispatch('getShoppingCarActions')
-            })
-            .catch((error)=>{
-                console.log(error);
-            });
-            
+                axios.post('http://localhost:2000/shoppingcar/addDo', {
+                    params: {
+                        id:item.id,
+                        uId:this.uId,
+                        commName:item.cmmdtyName,
+                        imgUrl:item.imgUrl,
+                        price:item.price,
+                        // color:this.commodityInfoList.color,
+                        isBuyCheck:0,
+                        isDelCheck:0,
+                        count:1
+                    }
+                })
+                .then( (response)=>{
+                    // 更新购物车数据在store 
+                    this.$store.dispatch('getShoppingCarActions',this.uId)
+                })
+                .catch((error)=>{
+                    console.log(error);
+                });
+            }
+
         },
 
         enterCommlityInfo(item){
